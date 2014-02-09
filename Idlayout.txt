@@ -1,0 +1,137 @@
+Ars Magica 2
+	BlockIds 601-651
+		ItemIDS 5000-5070 (5256-5326)
+
+Advance Genetics
+	BlockIds 700-717
+		ItemIDS 5400-5418 (5656-5674)
+
+Away Of Time
+	BlockIds 740-764
+		ItemIDS 5700-5780 (5956-6036)
+
+
+BasicMachines
+	BlockIds 780
+		ItemIds 6100-6110 (6356-6366
+
+BCTools
+	BlockIds 790-792
+		ItemIds 6130-6161 ( 6386-6417)
+
+BibloCraft
+	BlockIds 800-815
+		ItemIds 6430-6447 (6686-6703)
+
+BibloCraftWoodsBoP
+	BlockIds 830-842
+		ItemIds 6460-6464 (6716-6720)
+
+BibloCraftWoodsForestry
+	BlockIds 850-873
+		ItemIds 6470-6474 (6726-6730)
+
+BibloCraftWoodsNatura 
+	BlockIds 880-892
+		ItemIds 6480-6484 (6736-6740)
+
+BiomesOplenty
+	BlockIds 900-965 (980-984)
+	terrainblocks 220-234
+		ItemIds 6760-6801 (7016-7057)
+			BiomeIds 20-137
+				EntityIds
+					103-110
+
+BuildCraft
+	BlockIds 1000-1023
+		ItemIds 7100-7149 (7356-7405)
+
+CFM
+	BlockIds 1100-1305
+		ItemIds 7500-7546 (7756-7802)
+
+Chisel
+	BlockIds 1310-1382
+		ItemIds 7550-7553 (7806-7809)
+
+DartCraft
+	BlockIds 1400-1412
+		ItemIds 7850-7900 (8106-8156)
+
+
+DIM Doors
+	BlockIds 1420-1429
+	TerrianBlocks 240-241
+		ItemIds 7930-7940 (8186-8196)
+			Biome Ids 250-251
+				enity Ids 124-125
+
+EndGame
+	BlockIds 1440-1443
+		ItemIds 7960-7961 (8216-8217)			
+
+EmasherCore
+	BlockIds 1450-1454
+	TerrianBlocks 242-246
+		ItemIds 8230-8240 (8486-8496)
+
+EnderStorage
+	BlockIds 1460
+		Item Id 8250 (8506)
+
+Eng ToolBox
+	BlockIds 1465
+		ItemIds 8260-8284 (8516-8540)
+
+Enchaned Portals 3
+	BlockIds 1480-1484
+		Item Ids 8560-8570 (8816-8826)
+
+Extra Utilities
+	BlockIds 1500-1529
+		ItemIds 8900=8917 (9156-9173)
+
+Factorization
+	BlockIds 1550-1554
+		ItemIds 9200-9242 (9456-9498)
+
+FarLanders 
+	BlockIds 1570-1571
+		ItemIds 9510-9529 (9776-9785)
+
+Forestry + Binnies mods
+	BlockIDS 1600-1654
+		ItemIds 9800-9960(10056-10216)
+
+Forbidden Magic
+	Blockids 1657-1659
+		ItemIds 10300-10313 (10556-10569)
+
+Foundry
+	BlockIds 1660-1712
+		ItemIds 10320-10323(10576-10579)
+
+GasCraft
+	BlockIds 1720-1730
+		ItemIds 10600-10604(10856-10860)
+
+Gendustry
+	BlockIDS 1740-1746
+		ItemIDS 10900-10914(11156-11170)
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
