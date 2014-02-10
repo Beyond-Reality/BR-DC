@@ -121,15 +121,72 @@ Gendustry
 		ItemIDS 10900-10914(11156-11170)
 
 
+GraviGun
+	BlockIds ()
+		ItemIds 10930 (11086)
+
+GrimoreOfGia
+	BlockIds 1750-1751
+		ItemsIds 11100-11153 (11356-11409)
 
 
+HardCoreEnderExpansion
+	BlockIds 1760-1785
+		ItemIds 11430-11458 (11686-11714)
 
 
+InfernalMobs
+	BlockIds
+		ItemIds
 
+Iron Chest
+	BlockIds 1790
+		ItemIDS 11470-11481(11726-11737)
 
+Jabba
+	BlockIds 1800-1802
+		ItemIds 11490-11497(11746-11753)
 
-			
+MariCulture
+	BlockIds 1810-1836
+		ItemIds 11800-11868(12056-12124)
 
+MobTools
+	BlockIds 1850-1855
+		ItemIds 12200-12242(12456-12498)
+
+ModularFurnace
+	BlockIds 1860-1883
+		ItemIds 12250-12253 (12506-12509)
+
+MystCraft
+	BlockIds 1890-1901
+		ItemIds 12260-12266(12516-12252)
+			EnityIds 217-219
+
+MineFactory Realoaded
+	BlockIds 1920-1950
+		ItemIds 12300-12363(12556-12619)
+
+NetherOres
+	BlockIds 1960-1962
+		ItemIds ()
+
+RailCraft
+	BlockIds 1970-2001
+		ItemIds 12700-12773 (12956-13029)
+
+RemoteIO
+	BlockIds 2010-2014
+		ItemIds 12800-12805 (13056-13061)
+	
+RedstoneInMotion
+	BlockIds 2020-2022
+		ItemIds 13070-13071 (13326-13327)
+
+LogisticPipes
+	BlockIds 2030
+		ItemIds 13400-13443(13656-13699)
 
 
 
