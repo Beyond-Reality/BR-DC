@@ -309,10 +309,20 @@ Xreliquary
 		ItemIds 21400-21425 (21656-21681)
 
 ZeldaSwordSkills
-	Block 3250 
+	BlockIds 3250 
 		ItemIds 21700 ()
 
+WeatherMod
+	BlockIds 3260-3262
+		ItemIds 21700-21705 (21956-21961)
 
+TropiCraft
+	BlockIds 3270-3310
+		ItemIds 22000-22084 (22256-22340)
+			BiomeIds 218-226
+				Volly ID 3320-3321
 
-
+LightBridges&Doors
+	BlockIds 3340-3352
+		ItemIds ()
 
