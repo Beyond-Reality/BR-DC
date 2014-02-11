@@ -189,6 +189,65 @@ LogisticPipes
 		ItemIds 13400-13443(13656-13699)
 
 
+Booze
+	BlockIds 2040-2300	
+		ItemIds 13800-14000(14056-14256)
+
+ThaumCraft
+	BlockIds 2400-2425
+		ItemIds 14300-14358(14556-14812)
+			Enchants 150-154(potion 30)
+		Entities 600-627
+
+ThaumicExploration
+	BlockIds 2440-2448
+		ItemIds 14900-14916(15156-15172
+
+THistory
+	BlockIds 2460-2468
+		ItemIds 14950-14963(15206-15219)
+
+
+ThaumicTinker
+	BlockIds 2480-2496
+		ItemIds 14980-15000 (15236-15256)(Kami) 15050-15075 (15306-15331)
+		Enchantment Ids 220-225
+
+VulcansRevenge	
+	BlockIds 2510-2512
+		ItemIds 15400-15404(15656-15660)
+
+MagicalCrops 
+	BlockIds 2520-2575
+		ItemIds 15700-15754(15956-16010)
+
+LegendOfZeldaMod
+	BlockIds 2590-2595
+		ItemIds 16100-16145(16356-16401)
+
+Steves Carts
+	BlockIds 2600-2609
+		ItemIds 16200-16202(16456-16458)
+
+StevesFactoryManager
+	BlockIds 2620-2628
+		ItemIds ()
+
+MystOfRivo
+	BlockIds 2640-2763
+	Terrian Ids 240-246
+		ItemIds 16500-16969(16756-17225)
+			BiomeIds 191-199
+			Diminsion Ids 50-53
+				Entities 8200-8230
+				Enchantments 70-75
+
+
+MineChem
+	BlockIds 2780-2793
+		ItemIds 17300-17314(17556-17570)
+
+
 
 
 
