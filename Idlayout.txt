@@ -20,7 +20,7 @@ BCTools
 		ItemIds 6130-6161 ( 6386-6417)
 
 BibloCraft
-	BlockIds 800-815
+	BlockIds 800-818
 		ItemIds 6430-6447 (6686-6703)
 
 BibloCraftWoodsBoP
@@ -52,7 +52,7 @@ CFM
 		ItemIds 7500-7546 (7756-7802)
 
 Chisel
-	BlockIds 1310-1382
+	BlockIds 1310-1383
 		ItemIds 7550-7553 (7806-7809)
 
 DartCraft
@@ -234,8 +234,8 @@ StevesFactoryManager
 		ItemIds ()
 
 MystOfRivo
-	BlockIds 2640-2763
-	Terrian Ids 240-246
+	BlockIds 2640-2764
+	Terrian Ids 210-218
 		ItemIds 16500-16969(16756-17225)
 			BiomeIds 191-199
 			Diminsion Ids 50-53
@@ -246,6 +246,71 @@ MystOfRivo
 MineChem
 	BlockIds 2780-2793
 		ItemIds 17300-17314(17556-17570)
+
+BasicMachines
+	BlockIds  2800-2810
+		ItemIds 17600-17610(17856-17866)
+
+MadScience
+	BlockIds 2820-2897
+		ItemIds 17900-17903 (18156-18159)
+
+MagicBees
+	BlockIds 2910-2914
+		ItemIds 18200-18223(18456-18479)
+
+Meteors
+	BlockIds 2920-2929
+		ItemIds 18500-18532 (18756-18788)
+
+MultiPart
+	BlockIds 2940
+		ItemIds 18550-18554 (18806-18810)
+
+Natura
+	BlockIds 2950-3066
+	TerrianIds 250-251
+		ItemIds 18821-18874 (19077-19130)
+
+OpenBlocks
+	BlockIds 3080-3114
+		ItemIds 19200-19222 ( 19456-19478)
+
+OpenComputers
+	BlockIds 3120-3123
+		ItemIds 19500 (19756)
+
+PortalGun
+	BlockIds 3130-3131
+		ItemIds 19800-19900 (20056-20156)
+
+Simple Recycling
+	()
+
+Statues 
+	BlockIds 3140
+		ItemIds 20300-20302 (20556-20558)
+
+SteamCraft
+	BlockIds 3145-3183
+		ItemIds 20600-20649 (20856-20905)
+			
+Sync
+	BlockIds 3190
+		ItemIds 20660-20661 (20916-20917)
+
+TwilightForest
+	BlockIds 3200 3226
+		ItemIds 21000-21084 (21256-21340)
+			BiomeId 200-217
+
+Xreliquary
+	BlockIds 3240-3243
+		ItemIds 21400-21425 (21656-21681)
+
+ZeldaSwordSkills
+	Block 3250 
+		ItemIds 21700 ()
 
 
 
