@@ -194,7 +194,7 @@ item {
     I:"Berry Food"=18823
     I:"Berry Medley"=18824
     I:"Bloodwood Bow"=18825
-    I:"Bloodwood Hatchet"=18825
+    I:"Bloodwood Hatchet"=18875
     I:"Bloodwood Kama"=18826
     I:"Bloodwood Pickaxe"=18827
     I:"Bloodwood Shovel"=18828

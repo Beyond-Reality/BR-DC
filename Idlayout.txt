@@ -253,15 +253,15 @@ BasicMachines
 
 MadScience
 	BlockIds 2820-2897
-		ItemIds 17900-17903 (18156-18159)
+		ItemIds 17900-17967 (18156-18223)
 
 MagicBees
 	BlockIds 2910-2914
-		ItemIds 18200-18223(18456-18479)
+		ItemIds 18230-18253(18486-18509)
 
 Meteors
 	BlockIds 2920-2929
-		ItemIds 18500-18532 (18756-18788)
+		ItemIds 18510-18542 (18756-18798)
 
 MultiPart
 	BlockIds 2940
@@ -325,4 +325,32 @@ TropiCraft
 LightBridges&Doors
 	BlockIds 3340-3352
 		ItemIds ()
+
+QuantomCraft
+	BlockIds 3680-3720
+		ItemIds 22400-22417 ( 22656-22673)
+
+MyWorldGen
+	BlockIds 3380-3382
+		ItemIds 22700-22701 (22956-22957)
+
+StandardCrops
+	BlockIds 3390-3398
+		ItemIds 23000-23010 (23256-23266)
+
+WeponsMod
+	BlockIds ()
+		ItemIds 23300-23362 (23556-23618)
+
+Witchery
+	BlockIds 3500-3568
+		ItemIds 23700-23724 ( 23956-23980)
+
+ThermalExpansion
+	BlockIds 3600-3622
+		ItemIds 24000-24021 (24256-24277)
+
+RedstoneAresenal
+	BlockIds 3630
+		ItemIds 24030-24037 ( 24086-24093)
 
