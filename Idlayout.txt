@@ -221,9 +221,12 @@ MagicalCrops
 	BlockIds 2520-2575
 		ItemIds 15700-15754(15956-16010)
 
-LegendOfZeldaMod
-	BlockIds 2590-2595
-		ItemIds 16100-16145(16356-16401)
+ArchimedesShipsMod
+	BlockIds 2590-2596
+
+LycantiesMobs
+	BlockIds 2597-2598 
+		ItemIds 16100-16138(16356-16394)
 
 Steves Carts
 	BlockIds 2600-2609
@@ -242,10 +245,15 @@ MystOfRivo
 				Entities 8200-8230
 				Enchantments 70-75
 
+Switches
+	BlockIds 2780-2781
+		ItemIds 17300-17301(17556-17557)
 
-MineChem
-	BlockIds 2780-2793
-		ItemIds 17300-17314(17556-17570)
+SuperCrafting Frame
+	BlockIds 2783-2784
+		ItemIds ()
+DungeonMobs
+	BlockIds 2785-2786
 
 BasicMachines
 	BlockIds  2800-2810
@@ -354,3 +362,6 @@ RedstoneAresenal
 	BlockIds 3630
 		ItemIds 24030-24037 ( 24086-24093)
 
+Totemic
+	BlockIds 3640-3646
+		ItemIds 24100-24111 (24356-24367)
