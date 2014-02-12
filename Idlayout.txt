@@ -246,14 +246,14 @@ MystOfRivo
 				Enchantments 70-75
 
 Switches
-	BlockIds 2780-2781
+	BlockIds 2780-2784
 		ItemIds 17300-17301(17556-17557)
 
 SuperCrafting Frame
-	BlockIds 2783-2784
+	BlockIds 2785-2786
 		ItemIds ()
 DungeonMobs
-	BlockIds 2785-2786
+	BlockIds 2787-2788
 
 BasicMachines
 	BlockIds  2800-2810
@@ -334,9 +334,6 @@ LightBridges&Doors
 	BlockIds 3340-3352
 		ItemIds ()
 
-QuantomCraft
-	BlockIds 3680-3720
-		ItemIds 22400-22417 ( 22656-22673)
 
 MyWorldGen
 	BlockIds 3380-3382
@@ -365,3 +362,14 @@ RedstoneAresenal
 Totemic
 	BlockIds 3640-3646
 		ItemIds 24100-24111 (24356-24367)
+
+Hamsterrific
+	BlockIds 3650
+		ItemIds 24120-24121 (24376-24377)
+QuantomCraft
+	BlockIds 3680-3720
+		ItemIds 22400-22417 ( 22656-22673)
+
+Fossil and archeology
+	BlockIds 3730-3745
+		ItemIds 24800-24836 (25056-25292)
