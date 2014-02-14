@@ -236,7 +236,7 @@ StevesFactoryManager
 	BlockIds 2620-2628
 		ItemIds ()
 
-MystOfRivo (REMOVED)
+OreSpawn (REMOVED)
 	BlockIds 2640-2764
 	Terrian Ids 210-218
 		ItemIds 16500-16969(16756-17225)
@@ -246,21 +246,21 @@ MystOfRivo (REMOVED)
 				Enchantments 70-75
 
 Switches
-	BlockIds 2780-2784
+	BlockIds 3801-3804
 		ItemIds 17300-17301(17556-17557)
 
 SuperCrafting Frame
-	BlockIds 2785-2786
+	BlockIds 3805-3806
 		ItemIds ()
 DungeonMobs
-	BlockIds 2787-2788
+	BlockIds 3807-3808
 
 BasicMachines
-	BlockIds  2800-2810
+	BlockIds  3809-3819
 		ItemIds 17600-17610(17856-17866)
 
 MadScience
-	BlockIds 2820-2897
+	BlockIds 3820-3833
 		ItemIds 17900-17967 (18156-18223)
 
 MagicBees
