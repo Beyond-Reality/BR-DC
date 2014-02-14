@@ -199,7 +199,7 @@ ThaumCraft
 			Enchants 150-154(potion 30)
 		Entities 600-627
 
-ThaumicExploration
+ThaumicExploration (Removed)
 	BlockIds 2440-2448
 		ItemIds 14900-14916(15156-15172
 
@@ -236,7 +236,7 @@ StevesFactoryManager
 	BlockIds 2620-2628
 		ItemIds ()
 
-MystOfRivo
+MystOfRivo (REMOVED)
 	BlockIds 2640-2764
 	Terrian Ids 210-218
 		ItemIds 16500-16969(16756-17225)
@@ -373,3 +373,10 @@ QuantomCraft
 Fossil and archeology
 	BlockIds 3730-3745
 		ItemIds 24800-24836 (25056-25292)
+
+ChocolateCraft(BetterDungeons) (Work in progress)
+	BlockIds 3755-3780
+		Item Ids 25500-25600(25756-27856)
+
+Immbis.cfg (Dim anchors)
+	BlockIds 3800
