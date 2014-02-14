@@ -374,9 +374,9 @@ Fossil and archeology
 	BlockIds 3730-3745
 		ItemIds 24800-24836 (25056-25292)
 
-ChocolateCraft(BetterDungeons) (Work in progress)
-	BlockIds 3755-3780
-		Item Ids 25500-25600(25756-27856)
+Applied Energestics
+	BlockIds 3755-3759
+		Item Ids 25500-25512(25756-25768)
 
 Immbis.cfg (Dim anchors)
 	BlockIds 3800
