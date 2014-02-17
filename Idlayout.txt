@@ -1,3 +1,6 @@
+Spreadsheet
+https://docs.google.com/spreadsheet/ccc?key=0As8C2oOVBMQvdEF1aEVYMEh3OHoyZGNUbnM0NF9BQmc&usp=sharing
+
 Ars Magica 2
 	BlockIds 601-651
 		ItemIDS 5000-5070 (5256-5326)
@@ -244,7 +247,7 @@ OreSpawn (REMOVED)
 			Diminsion Ids 50-53
 				Entities 8200-8230
 				Enchantments 70-75
-
+                
 Switches
 	BlockIds 3801-3804
 		ItemIds 17300-17301(17556-17557)
@@ -380,3 +383,18 @@ Applied Energestics
 
 Immbis.cfg (Dim anchors)
 	BlockIds 3800
+    
+Modular Storage
+    BlockIds 3810-3811
+        Item Ids 25550 (25806)
+        
+Carpenters Blocks
+    BlockIds 3850-3866
+        Item Ids 25590-25593 (25846-25849)
+        
+Grips Additions
+    Block Ids 3900-3902
+        Item ids 25610-25612 (25886-25868)
+        
+
+        
