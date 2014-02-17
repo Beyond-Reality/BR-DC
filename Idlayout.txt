@@ -385,11 +385,11 @@ Immbis.cfg (Dim anchors)
 	BlockIds 3800
     
 Modular Storage
-    BlockIds 3810-3811
+    BlockIds 3850-3851
         Item Ids 25550 (25806)
         
 Carpenters Blocks
-    BlockIds 3850-3866
+    BlockIds 3860-3876
         Item Ids 25590-25593 (25846-25849)
         
 Grips Additions
