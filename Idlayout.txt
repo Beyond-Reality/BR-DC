@@ -2,7 +2,7 @@ Spreadsheet
 https://docs.google.com/spreadsheet/ccc?key=0As8C2oOVBMQvdEF1aEVYMEh3OHoyZGNUbnM0NF9BQmc&usp=sharing
 
 Ars Magica 2
-	BlockIds 601-651
+	BlockIds 601-652
 		ItemIDS 5000-5070 (5256-5326)
 
 Advance Genetics
@@ -14,13 +14,13 @@ Away Of Time
 		ItemIDS 5700-5780 (5956-6036)
 
 
-BasicMachines
+BasicMachines (REMOVED)
 	BlockIds 780
 		ItemIds 6100-6110 (6356-6366
 
 BCTools
 	BlockIds 790-792
-		ItemIds 6130-6161 ( 6386-6417)
+		ItemIds 6130-6161 DOES NOT SHIFT DO NOT ASSIGN 5874-5905
 
 BibloCraft
 	BlockIds 800-818
