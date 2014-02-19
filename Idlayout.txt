@@ -51,8 +51,16 @@ BuildCraft
 		ItemIds 7100-7149 (7356-7405)
 
 CFM
-	BlockIds 1100-1305
-		ItemIds 7500-7546 (7756-7802)
+	BlockIds 1100-1119
+		ItemIds 7500-7505 (7756-7761)
+
+Agriculture
+	BlockIds 1125-1135
+		ItemIds 7510-7511 ( 7766-7767)
+
+Artifacts
+	BlockIds 1136-1158
+		ItemIds 7712-7739
 
 Chisel
 	BlockIds 1310-1383
@@ -239,15 +247,12 @@ StevesFactoryManager
 	BlockIds 2620-2628
 		ItemIds ()
 
-OreSpawn (REMOVED)
-	BlockIds 2640-2764
-	Terrian Ids 210-218
-		ItemIds 16500-16969(16756-17225)
-			BiomeIds 191-199
-			Diminsion Ids 50-53
-				Entities 8200-8230
-				Enchantments 70-75
-                
+EternalFrost
+	BlockIds 2640-2687
+	Terrian Ids 191-220
+		ItemIds 16500-16600(16756-17226)
+			BiomeIds 191-195
+
 Switches
 	BlockIds 3801-3804
 		ItemIds 17300-17301(17556-17557)
@@ -256,7 +261,7 @@ SuperCrafting Frame
 	BlockIds 3805-3806
 		ItemIds ()
 DungeonMobs
-	BlockIds 3807-3808
+	BlockIds 500-501
 
 BasicMachines
 	BlockIds  3809-3819
@@ -385,16 +390,23 @@ Immbis.cfg (Dim anchors)
 	BlockIds 3800
     
 Modular Storage
-    BlockIds 3850-3851
-        Item Ids 25550 (25806)
+	BlockIds 3850-3851
+        	Item Ids 25550 (25806)
         
 Carpenters Blocks
-    BlockIds 3860-3876
-        Item Ids 25590-25593 (25846-25849)
+	BlockIds 3860-3876
+        	Item Ids 25590-25593 (25846-25849)
         
 Grips Additions
-    Block Ids 3900-3902
-        Item ids 25610-25612 (25886-25868)
+	Block Ids 3900-3902
+        	Item ids 25610-25612 (25886-25868)
+
+PlunderRummage
+	Block Ids ()
+		ItemIds 25900-25914 (26156-26170)
+
+RailcraftShifted
+	ItemIds 26200-26201
         
 
         
