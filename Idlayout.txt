@@ -100,7 +100,7 @@ Enchaned Portals 3
 		Item Ids 8560-8570 (8816-8826)
 
 Extra Utilities
-	BlockIds 1500-1529
+	BlockIds 1500-1530
 		ItemIds 8900=8917 (9156-9173)
 
 Factorization
@@ -142,8 +142,8 @@ GrimoreOfGia
 
 
 HardCoreEnderExpansion
-	BlockIds 1760-1785
-		ItemIds 11430-11458 (11686-11714)
+	BlockIds 1760-1785 (2780)
+		ItemIds 11430-11461 (11686-11717)
 
 
 InfernalMobs
@@ -409,4 +409,33 @@ RailcraftShifted
 	ItemIds 26200-26201
         
 
+Dyetress
+	BlockIds 2690-2695
+		ItemIds 26500
+
+EnderForest 
+	BlockIds 2696
+		ItemIds 26501
+
+Expanded Redstone
+	BlockIds 2697-2698
+		ItemIds 26502
+
+MeteorCraft
+	BlockIds none nonone
+
+ReactorCraft
+	BlockIds 2700-2715
+		ItemIds 26505-26521
         
+RoraryCraft
+	BlockIds 2720-2748
+		ItemIds 26900-26970
+
+Theyouwilldiemod
+	BlockIds 2760-2769 There is a null block somewhere Hidden Ids
+		Item Ids 27300
+
+Crossbowmod
+	BlockIds 2770
+		Item Ids 27331-27336
