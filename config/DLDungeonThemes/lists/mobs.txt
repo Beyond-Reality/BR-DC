@@ -1,0 +1,395 @@
+633.Bones
+633.Brachiosaurus
+633.Failuresaurus
+633.FriendlyPigZombie
+633.Mammoth
+633.Mosasaurus
+633.Nautilus
+633.PigBoss
+633.Plesiosaur
+633.PregnantCow
+633.PregnantPig
+633.PregnantSheep
+633.Pterosaur
+633.Raptor
+633.SaberCat
+633.Stegosaurus
+633.Triceratops
+633.Tyrannosaurus
+633.Utahraptor
+AIBlock.Structure
+AWWayofTime.AirElemental
+AWWayofTime.BileDemon
+AWWayofTime.BoulderFist
+AWWayofTime.EarthElemental
+AWWayofTime.FallenAngel
+AWWayofTime.FireElemental
+AWWayofTime.HolyElemental
+AWWayofTime.IceDemon
+AWWayofTime.LowerGuardian
+AWWayofTime.Shade
+AWWayofTime.ShadeElemental
+AWWayofTime.SmallEarthGolem
+AWWayofTime.WaterElemental
+AWWayofTime.WingedFireDemon
+AlienCreeper
+ArcticMobs.Reiver
+Artifacts.EntClayGolem
+Bat
+BiomesOPlenty.Bird
+BiomesOPlenty.Glob
+BiomesOPlenty.JungleSpider
+BiomesOPlenty.Phantom
+BiomesOPlenty.Pixie
+BiomesOPlenty.Rosester
+BiomesOPlenty.Wasp
+Blaze
+Blizz
+CaveSpider
+Chicken
+Clay Golem
+CometKitty
+Cow
+Creeper
+DartCraft.entityAngryEnderman
+DartCraft.entityBeeSwarm
+DartCraft.entityFrozenItem
+DemonMobs.Asmodi
+DemonMobs.Behemoth
+DemonMobs.Belph
+DemonMobs.Cacodemon
+DemonMobs.NetherSoul
+DemonMobs.Pinky
+DemonMobs.Trite
+DesertMobs.Clink
+DesertMobs.Crusk
+DesertMobs.CryptZombie
+DesertMobs.Erepede
+DesertMobs.Gorgomite
+DesertMobs.Joust
+DesertMobs.JoustAlpha
+DesertMobs.Manticore
+ElfHunter
+EnderDragon
+EnderLord
+Enderman
+EntityHamster
+EntityHorse
+FireDemon
+ForestMobs.Ent
+ForestMobs.Trent
+Forestry.butterflyGE
+Ghast
+Giant
+GrimoireGaia2.Anubis
+GrimoireGaia2.Banshee
+GrimoireGaia2.Baphomet
+GrimoireGaia2.Bone Knight
+GrimoireGaia2.Boomer
+GrimoireGaia2.Butler
+GrimoireGaia2.Centaur
+GrimoireGaia2.Cobble Golem
+GrimoireGaia2.Cobblestone Golem
+GrimoireGaia2.Cockatrice
+GrimoireGaia2.Creeper Girl
+GrimoireGaia2.Cyan Flower
+GrimoireGaia2.Cyclops
+GrimoireGaia2.Dryad
+GrimoireGaia2.Dullahan
+GrimoireGaia2.Ender Dragon Girl
+GrimoireGaia2.Ender Eye
+GrimoireGaia2.Ender Girl
+GrimoireGaia2.Flesh Lich
+GrimoireGaia2.Giga Knight
+GrimoireGaia2.Gryphon
+GrimoireGaia2.Harpy
+GrimoireGaia2.Holstaurus
+GrimoireGaia2.Hunter
+GrimoireGaia2.Maid
+GrimoireGaia2.Mandragora
+GrimoireGaia2.Merchant
+GrimoireGaia2.Mermaid
+GrimoireGaia2.Mimic
+GrimoireGaia2.Minotaur
+GrimoireGaia2.Minotaurus
+GrimoireGaia2.Mummy
+GrimoireGaia2.Naga
+GrimoireGaia2.NineTails
+GrimoireGaia2.Sahuagin
+GrimoireGaia2.Shaman
+GrimoireGaia2.Sharko
+GrimoireGaia2.Siren
+GrimoireGaia2.Slime Girl
+GrimoireGaia2.Sludge Girl
+GrimoireGaia2.Sphinx
+GrimoireGaia2.Spider Queen
+GrimoireGaia2.Spriggan
+GrimoireGaia2.Succubus
+GrimoireGaia2.Valkyrie
+GrimoireGaia2.Vampire
+GrimoireGaia2.Werecat
+GrimoireGaia2.Witch
+GrimoireGaia2.Wither Cow
+GrimoireGaia2.Yeti
+GrimoireGaia2.Yuki-Onna
+HardcoreEnderExpansion.AngryEnderman
+HardcoreEnderExpansion.BabyEnderman
+HardcoreEnderExpansion.CorporealMirage
+HardcoreEnderExpansion.Dragon
+HardcoreEnderExpansion.EnderDemon
+HardcoreEnderExpansion.EnderEye
+HardcoreEnderExpansion.EnderGuardian
+HardcoreEnderExpansion.EnderMinion
+HardcoreEnderExpansion.FireFiend
+HardcoreEnderExpansion.FireGolem
+HardcoreEnderExpansion.ForestGhost
+HardcoreEnderExpansion.InfestedBat
+HardcoreEnderExpansion.ParalyzedEnderman
+HardcoreEnderExpansion.ScorchedLens
+HardcoreEnderExpansion.VampireBat
+HardcoreEnderdragon.chylex_HED_BEM
+HardcoreEnderdragon.chylex_HED_DRG
+HardcoreEnderdragon.chylex_HED_EYE
+InfernoMobs.Cinder
+JungleMobs.Concapede
+JungleMobs.ConcapedeSegment
+JungleMobs.Geken
+JungleMobs.Uvaraptor
+LavaMonsters.LavaMonster
+LavaSlime
+LightningSpirit
+Linkbook
+MineFactoryReloaded.mfrEntityPinkSlime
+MountainMobs.Jabberwock
+MushroomCow
+Natura.FlameSpider
+Natura.FlameSpiderBaby
+Natura.Imp
+Natura.NitroCreeper
+NetherOres.netherOresHellfish
+OpenBlocks.Luggage
+Ozelot
+Pig
+PigZombie
+PlainsMobs.Kobold
+PlainsMobs.Maka
+PlainsMobs.MakaAlpha
+PlainsMobs.Ventoraptor
+Sheep
+Silverfish
+Skeleton
+Slime
+SnowBeast
+SnowMan
+Spider
+Squid
+SwampMobs.Aspid
+SwampMobs.Dweller
+SwampMobs.Ettin
+SwampMobs.Eyewig
+SwampMobs.GhoulZombie
+SwampMobs.Lurker
+SwampMobs.Remobra
+Thaumcraft.BrainyZombie
+Thaumcraft.Firebat
+Thaumcraft.GiantBrainyZombie
+Thaumcraft.Golem
+Thaumcraft.Pech
+Thaumcraft.TaintSpider
+Thaumcraft.TaintSpore
+Thaumcraft.TaintSwarm
+Thaumcraft.TaintSwarmer
+Thaumcraft.Taintacle
+Thaumcraft.TaintacleTiny
+Thaumcraft.TaintedChicken
+Thaumcraft.TaintedCow
+Thaumcraft.TaintedCreeper
+Thaumcraft.TaintedPig
+Thaumcraft.TaintedSheep
+Thaumcraft.TaintedVillager
+Thaumcraft.ThaumSlime
+Thaumcraft.TravelingTrunk
+Thaumcraft.Wisp
+TwilightForest.Bighorn Sheep
+TwilightForest.Block&Chain Goblin
+TwilightForest.Boggard
+TwilightForest.Death Tome
+TwilightForest.Fire Beetle
+TwilightForest.Firefly
+TwilightForest.Forest Bunny
+TwilightForest.Forest Raven
+TwilightForest.Forest Squirrel
+TwilightForest.Hedge Spider
+TwilightForest.Helmet Crab
+TwilightForest.Hostile Wolf
+TwilightForest.Hydra
+TwilightForest.HydraHead
+TwilightForest.King Spider
+TwilightForest.Knight Phantom
+TwilightForest.Lich Minion
+TwilightForest.Lower Goblin Knight
+TwilightForest.Loyal Zombie
+TwilightForest.Maze Slime
+TwilightForest.Mini Ghast
+TwilightForest.Minoshroom
+TwilightForest.Minotaur
+TwilightForest.Mist Wolf
+TwilightForest.Mosquito Swarm
+TwilightForest.Naga
+TwilightForest.Penguin
+TwilightForest.Pinch Beetle
+TwilightForest.Questing Ram
+TwilightForest.Redcap
+TwilightForest.Redcap Sapper
+TwilightForest.Redscale Broodling
+TwilightForest.Skeleton Druid
+TwilightForest.Slime Beetle
+TwilightForest.Swarm Spider
+TwilightForest.Tiny Bird
+TwilightForest.Tower Boss
+TwilightForest.Tower Ghast
+TwilightForest.Tower Golem
+TwilightForest.Tower Termite
+TwilightForest.Twilight Kobold
+TwilightForest.Twilight Lich
+TwilightForest.Twilight Wraith
+TwilightForest.Upper Goblin Knight
+TwilightForest.Wild Boar
+TwilightForest.Wild Deer
+UtilityMobs.AnvilGolem
+UtilityMobs.ArmorGolem
+UtilityMobs.BoundSoul
+UtilityMobs.BrickTurret
+UtilityMobs.ChestEnderGolem
+UtilityMobs.ChestGolem
+UtilityMobs.ChestTrappedGolem
+UtilityMobs.FireTurret
+UtilityMobs.FireballTurret
+UtilityMobs.FurnaceGolem
+UtilityMobs.GatlingTurret
+UtilityMobs.GhastTurret
+UtilityMobs.GildedGolem
+UtilityMobs.KillerTurret
+UtilityMobs.ObsidianGolem
+UtilityMobs.ObsidianTurret
+UtilityMobs.Scarecrow
+UtilityMobs.ShotgunTurret
+UtilityMobs.SniperTurret
+UtilityMobs.SnowTurret
+UtilityMobs.StoneGolem
+UtilityMobs.StoneLargeGolem
+UtilityMobs.StoneTurret
+UtilityMobs.VolleyTurret
+UtilityMobs.WorkbenchGolem
+Villager
+VillagerGolem
+Witch
+WitherBoss
+Wolf
+Zombie
+arsmagica2.AirSled
+arsmagica2.BattleChicken
+arsmagica2.BossAirGuardian
+arsmagica2.BossArcaneGuardian
+arsmagica2.BossEarthGuardian
+arsmagica2.BossFireGuardian
+arsmagica2.BossNatureGuardian
+arsmagica2.BossWaterGuardian
+arsmagica2.BossWinterGuardian
+arsmagica2.DaBroom
+arsmagica2.EarthElemental
+arsmagica2.HellCow
+arsmagica2.MobDarkMage
+arsmagica2.MobDarkling
+arsmagica2.MobDryad
+arsmagica2.MobFireElemental
+arsmagica2.MobHecate
+arsmagica2.MobLightMage
+arsmagica2.MobMageVillager
+arsmagica2.MobManaCreeper
+arsmagica2.MobManaElemental
+arsmagica2.MobWaterElemental
+arsmagica2.RiftStorage
+arsmagica2.ThrownArm
+arsmagica2.ThrownRock
+arsmagica2.ThrownSickle
+arsmagica2.Whirlwind
+chuchu
+coldChicken
+coldCow
+coldPig
+creeperTot
+dimdoors.Monolith
+enderTot
+endgame.questVillager
+farlanders.Classic Enderman
+farlanders.Elder Farlander
+farlanders.Ender Golem
+farlanders.Ender Guardian
+farlanders.Enderminion
+farlanders.Fanmade Enderman
+farlanders.Farlander
+farlanders.Looter
+farlanders.Mystic Enderman
+farlanders.Mystic Enderminion
+farlanders.Rebel Farlander
+farlanders.Titan
+farlanders.Wanderer
+gmoAbomination
+gmoCreeperCow
+gmoEnderSquid
+gmoEnderslime
+gmoShoggoth
+gmoWerewolf
+gmoWoolyCow
+tropicraftmod.AshenHunter
+tropicraftmod.EIH
+tropicraftmod.EagleRay
+tropicraftmod.Failgull
+tropicraftmod.Iguana
+tropicraftmod.KoaFisher
+tropicraftmod.KoaHunter
+tropicraftmod.KoaTrader
+tropicraftmod.MOW
+tropicraftmod.Marlin
+tropicraftmod.Sea Turtle
+tropicraftmod.SeaUrchin
+tropicraftmod.SeaUrchinEgg
+tropicraftmod.Shaman
+tropicraftmod.SpiderAdult
+tropicraftmod.SpiderChild
+tropicraftmod.SpiderEgg
+tropicraftmod.Starfish
+tropicraftmod.StarfishEgg
+tropicraftmod.TreeFrogBlue
+tropicraftmod.TreeFrogGreen
+tropicraftmod.TreeFrogRed
+tropicraftmod.TreeFrogYellow
+tropicraftmod.TropiCreeper
+tropicraftmod.TropiSkeleton
+tropicraftmod.TropicalFish
+tropicraftmod.Turtle Egg
+tropicraftmod.VMonkey
+witchery.babayaga
+witchery.cat
+witchery.corpse
+witchery.covenwitch
+witchery.demon
+witchery.ent
+witchery.eye
+witchery.familiar
+witchery.hornedHuntsman
+witchery.illusionCreeper
+witchery.illusionSpider
+witchery.illusionZombie
+witchery.louse
+witchery.mandrake
+witchery.nightmare
+witchery.owl
+witchery.toad
+witchery.treefyd
+zeldaswordskills.chu
+zeldaswordskills.fairy
+zeldaswordskills.keese
+zeldaswordskills.npc.mask_trader
+zeldaswordskills.octorok
