@@ -1,0 +1,63 @@
+Advanced Genetics 450-467
+applied energestics 470-474
+Arch Ships 475-481
+Dungeon mobs 500-501
+basic machines 509-519
+artifacts 520-542
+ars Magica 545-595
+away of time (blood Magic) 600-629
+Booze 647
+bc tools 655-657
+biomes o plenty 220-234 660-725 biome Ids 20-137
+BiblioCraft 730-745 bop 746-758 Forestry 759-782 Natura 783-795
+buildcraft 800-823
+BuilderMod  825-838
+carpenters blocks 840-856
+booze 860-880 -"647"
+chisel 890-954
+crossbow mod 955
+DartCraft 956-968
+dim dOORS 970-979
+Dim anchors 980
+ender Forest 981
+ender storage 982
+end game 983*986
+Eng toolbox 990-1002
+enchanced portals 3 1005-1009
+extra util 1010-1040
+expanded redstone 1041-1042
+farlanders 1045 1046
+forbiden magic 1047-1049
+Forestry & extra bees 1060-1112
+fossil arch (633) 1115-1130
+gannys end 1135-1158
+gannys nether 1160-1200
+gannys surface 1201-1241
+gascraft 1250 1261
+gendustry 1265-1271
+grimore of gia 1274-1275
+grips add 1276-1277
+hamterific 1278
+hard core end 1280-1305
+iron chest 1307
+jabba 1308 -1310
+jammys 1311-1331
+legendary beast 1333
+light bridge door 1335-1347
+logi pipes 1349
+lycanties mobs 1350-1351
+mad science 1360-1376
+magical crops 1380-1441
+magic bees 1450-1454
+mariculture 1455-1481
+meteors mod 1485-1494
+MFR 1495-1525
+mob tools 1530-1535
+modular furnace 1536-1559
+Modular Storage 1560-1561
+mystcraft 1562-1573
+my world gen 1575-1577
+Natura 1580-1696
+nether Ores 1697-1699
+open blocks 1700-1734
+
