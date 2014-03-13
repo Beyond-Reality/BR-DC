@@ -60,4 +60,32 @@ my world gen 1575-1577
 Natura 1580-1696
 nether Ores 1697-1699
 open blocks 1700-1734
+open computers 1740-1743
+plunnder rummage 1744-1745
+portal gun 1747-1748
+quantumcraft 1750-1766
+railcraft 1770-1802
+reactorCraft 1810-1825
+redstone Arsenal 1829
+Reliquary 1830-1833
+remote IO 1835-1839
+Statues 1840-1841
+Steves Carts 1843-1852
+Steves factory man 1853-1864
+super crafting 1868-1869
+switches 1870-1873
+sync 1874
+thaumcraft 1875-1901
+thaum explore 1910-1920
+thaumic Hist 1923-1931
+thaumic tink 1940-1960
+the you will die mod 1965
+totem 1966-1978
+translocator 1979-1980
+Tropicraft 1981-2024
+twilight 2030-2054
+vulcan revenge 2055-2057
+waypoints 2058
+witchery 2060-2112
+zelda skillz 2114
 
