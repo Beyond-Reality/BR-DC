@@ -1,92 +1,92 @@
-Advanced Genetics 450-467
-applied energestics 470-474
+Advanced Genetics 450-467  5400-5420
+applied energestics 470-474 22500-22512
 Arch Ships 475-481
 Dungeon mobs 500-501
-basic machines 509-519
-artifacts 520-542
-ars Magica 545-595
-away of time (blood Magic) 600-629
-Booze 647
-bc tools 655-657
-biomes o plenty 220-234 658-729 biome Ids 20-137
-BiblioCraft 730-745 bop 746-758 Forestry 759-782 Natura 783-795
-buildcraft 800-823
-BuilderMod  825-838
-carpenters blocks 840-856
-chisel 890-954
-crossbow mod 955
-DartCraft 956-968
-dim dOORS 970-979
-Dim anchors 980
-ender Forest 981
-ender storage 982
-end game 983*986
-Eng toolbox 990-1002
-enchanced portals 3 1005-1009
-extra util 1010-1040
-expanded redstone 1041-1042
-farlanders 1045 1046
-forbiden magic 1047-1049
-Forestry & extra bees 1060-1112
-fossil arch (633) 1115-1130
-gannys end 1135-1158
-gannys nether 1160-1200
-gannys surface 1201-1241
-gascraft 1250 1261
-gendustry 1265-1271
-grimore of gia 1274-1275
-grips add 1276-1277
-hamterific 1278
-hard core end 1280-1305
-iron chest 1307
-jabba 1308 -1310
-jammys 1311-1331
-legendary beast 1333
+basic machines 509-519 17600-17610
+artifacts 520-542 7712-7739
+ars Magica 545-595 5000-5070
+away of time (blood Magic) 600-629  5700-5782
+Booze 647  13800-13855
+bc tools 655-657  5874-5905 (6130-6161) DOES NOT FOLLOW 256 RULE
+biomes o plenty 220-234 658-729 biome Ids 20-137  6760-6801
+BiblioCraft 730-745 bop 746-758 Forestry 759-782 Natura 783-795  6430-6484
+buildcraft 800-823  7100-7149
+BuilderMod  825-838  29000-29003
+carpenters blocks 840-856  25334-25337 (25590-25593) DOES NOT FOLLOW 256 RULE
+chisel 890-954  7550-7553
+crossbow mod 955  27330-27336
+DartCraft 956-968  7850-7901
+dim dOORS 970-979   7930-7940
+Dim anchors 980   
+ender Forest 981  26501
+ender storage 982   8250
+end game 983-986    7960-7961
+Eng toolbox 990-1002   8260-8285
+enchanced portals 3 1005-1009  8560-8570
+extra util 1010-1040  8900-8917
+expanded redstone 1041-1042  26502
+farlanders 1045 1046    9510-9537
+forbiden magic 1047-1049   10300-10315
+Forestry & extra bees 1060-1112  8400/9800-9960/13500-13556/
+fossil arch (633) 1115-1130   24800-24836
+gannys end 1135-1158   30000-30013
+gannys nether 1160-1200  30014-30042
+gannys surface 1201-1241  30044-30072
+gascraft 1250 1261  10600-10604
+gendustry 1265-1271   10900-10914
+grimore of gia 1274-1275   11100-11154
+grips add 1276-1277   25610-25612
+hamterific 1278 4000-4001
+hard core end 1280-1305   11430-11461
+iron chest 1307   11470-11481
+jabba 1308 -1310   11490-11497
+jammys 1311-1331   7500-7505
+legendary beast 1333   4901-4907
 light bridge door 1335-1347
-logi pipes 1349
-lycanties mobs 1350-1351
-mad science 1360-1376
-magical crops 1380-1441
-magic bees 1450-1454
-mariculture 1455-1481
-meteors mod 1485-1494
-MFR 1495-1525
-mob tools 1530-1535
-modular furnace 1536-1559
-Modular Storage 1560-1561
-mystcraft 1562-1573
-my world gen 1575-1577
-Natura 1580-1696
-nether Ores 1697-1699
-open blocks 1700-1734
-open computers 1740-1743
-plunnder rummage 1744-1745
-portal gun 1747-1748
-railcraft 1770-1802
-reactorCraft 1810-1825
-redstone Arsenal 1829
-Reliquary 1830-1833
-remote IO 1835-1839
-Statues 1840-1841
-Steves Carts 1843-1852
-Steves factory man 1853-1864
-super crafting 1868-1869
+logi pipes 1349   13400-13443
+lycanties mobs 1350-1351   16100-16148
+mad science 1360-1377  17879-17968
+magical crops 1380-1441  15700-15763
+magic bees 1450-1454   17974-17977 (18230-18353) DOES NOT FOLLOW 256 RULE
+mariculture 1455-1481  11800-11870
+meteors mod 1485-1494   18510-18542
+MFR 1495-1525   12300-12363
+mob tools 1530-1535   12200-12242
+modular furnace 1536-1559  12250-12253
+Modular Storage 1560-1561 (REMOVED)  
+mystcraft 1562-1573   12260-12266
+my world gen 1575-1577  22700-22701
+Natura 1580-1696    18820-18875
+nether Ores 1697-1699  
+open blocks 1700-1734   19200-19224
+open computers 1740-1743   19500
+plunnder rummage 1744-1745  25644-25658 (25900-25914) DOES NOT FOLLOW 256 RULES
+portal gun 1747-1748   19800-19812/20050-20053
+railcraft 1770-1802   12700-12774
+reactorCraft 1810-1825   26505-26529
+redstone Arsenal 1829   24030-24037
+Reliquary 1830-1833   21400-21425
+remote IO 1835-1839  12800-12805
+Statues 1840-1841     20300-20302
+Steves Carts 1843-1852  16200-16202
+Steves factory man 1853-1864  
+super crafting 1868-1869   
 switches 1870-1873
-sync 1874
-thaumcraft 1875-1901
-thaum explore 1910-1920
-thaumic Hist 1923-1931
-thaumic tink 1940-1960
-the you will die mod 1962
-totem 1966-1978
-translocator 1979-1980
-Tropicraft 1981-2024
-twilight 2028-2054
-vulcan revenge 2055-2057
-waypoints 2058
-witchery 2060-2112
-zelda skillz 2114
-emasher core 2130-2137
-redstone in motion 2140-2142
-Booze 2150-2200
-quantomcraft 2270-2330
+sync 1874      20660-20661
+thaumcraft 1875-1901   14300-14358
+thaum explore 1910-1920    14900-14933
+thaumic Hist 1923-1931  14950-14969
+thaumic tink 1940-1960    14980-1500
+the you will die mod 1962   27300-27304
+totem 1966-1978  23844-23857 (24100-24113) DONES NOT FOLLOW 256 RULE
+translocator 1979-1980  24120
+Tropicraft 1981-2024   22000-22084
+twilight 2028-2054   21000-21084
+vulcan revenge 2055-2057   15400-15404
+waypoints 2058    
+witchery 2060-2112   23700-23726
+zelda skillz 2114   21444-21532 (21700-21788) DOES NOT FOLLOW 256 RULE
+emasher core 2130-2137   8230-8241
+redstone in motion 2140-2142   11500-11501
+Booze 2150-2200   13800-13855
+quantomcraft 2270-2330   22400-22417
