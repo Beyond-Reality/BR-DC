@@ -88,7 +88,7 @@ zelda skillz 2114-2124   21444-21532 (21700-21788) DOES NOT FOLLOW 256 RULE
 emasher core 2130-2137   8230-8241
 redstone in motion 2140-2142   11500-11501
 Booze 646/2150-2200   13800-13855
-quantomcraft 2270-2286   22400-22417
+quantomcraft 2270-2322   22400-22417
 standarcrops 3390-3399/4093      23000-23019
 ForgeMicroBlock    ###  18550-18554
 ThermalExpansion   3600-3622 24000-24021
