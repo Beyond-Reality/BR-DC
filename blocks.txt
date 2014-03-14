@@ -93,3 +93,4 @@ standarcrops 3390-3399/4093      23000-23019
 ForgeMicroBlock    ###  18550-18554
 ThermalExpansion   3600-3622 24000-24021
 RotaryCraft   2720-2748    26900-26973 
+Technomancy  2210-2218   10100-10102
