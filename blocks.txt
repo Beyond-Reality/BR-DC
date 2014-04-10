@@ -5,7 +5,7 @@ Dungeon mobs 500-501(REMOVED)
 basic machines 509-519 17600-17610
 artifacts 520-542 7712-7739
 ars Magica 545-595 5000-5070
-away of time (blood Magic) 600-629  5700-5782
+away of time (blood Magic) 600-630  5700-5782
 bc tools 655-657  5874-5905 (6130-6161) DOES NOT FOLLOW 256 RULE
 biomes o plenty 220-234 658-729 biome Ids 20-137  6760-6801
 BiblioCraft 730-745 bop 746-758 Forestry 759-782 Natura 783-795  6430-6484
@@ -25,7 +25,7 @@ enchanced portals 3 1005-1009  8560-8570
 extra util 1010-1040  8900-8917
 expanded redstone 1041-1042  26502
 farlanders 1045 1046    9510-9537
-forbiden magic 1047-1049   10300-10315
+forbiden magic 1047-1050   10300-10317
 Forestry & extra bees 1060-1112  8400/9800-9960/13500-13556/
 fossil arch (633) 1115-1130   24800-24836
 gannys end 1135-1158   30000-30013
@@ -44,7 +44,7 @@ legendary beast 1333   4901-4907
 light bridge door 1335-1347
 logi pipes 1349   13400-13443
 lycanties mobs 1350-1351   15884-15890/16103-16144 (16100-16146/16359-16400) SOME SHIFT SOME DONT
-mad science 1360-1377  17879-17968
+mad science 1357-1379  17878-17973
 magical crops 1380-1441  15700-15773
 magic bees 1450-1454   17974-17997 (18230-18353) DOES NOT FOLLOW 256 RULE
 mariculture 1455-1481  11800-11870
@@ -93,4 +93,10 @@ standarcrops 3390-3399/4093      23000-23019
 ForgeMicroBlock    ###  18550-18554
 ThermalExpansion   3600-3622 24000-24021
 RotaryCraft   2720-2748    26900-26973 
-Technomancy  2210-2218   10100-10102
+Technomancy  2210-2219   31055-31059
+EletriCraft 2331-2334 30500-30510
+Resonant Induction 2340-2371 31000-31017 (need block dump)
+ObsidiPlates 2600 (temp)
+FlatSigns 2601(temp) 31050
+rcdust xxx 31051
+Calcalvia Core 2602-2604 31052-31055
