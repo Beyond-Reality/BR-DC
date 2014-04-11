@@ -96,7 +96,7 @@ RotaryCraft   2720-2748    26900-26973
 Technomancy  2210-2219   31055-31059
 EletriCraft 2331-2334 30500-30510
 Resonant Induction 2340-2371 31000-31017 (need block dump)
-ObsidiPlates 2600 (temp)
 FlatSigns 2601(temp) 31050
 rcdust xxx 31051
 Calcalvia Core 2602-2604 31052-31055
+PneumaticCraft 2610-2658 31060-31090
