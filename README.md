@@ -5,6 +5,4 @@ Beyond Reality: Dimensions Collide
 
 Currently in development.
 
-Dimensions Collide will add never before seen mods include in packs by the AT Launcher. 
-A new and amazing way to progress in a adventure pack.
-New Custom generated dungeons, A custom mod to make it all work!
+Dimensions Collide is pure adventure at heart with a great deal of content based around dimension hopping dungeon crawling zombie head chopping fun. Of course it also features a bit of tech as well as amazing base enchancing building mod's and small or new undiscovered mods not seen it most big packs.
