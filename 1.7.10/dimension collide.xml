@@ -1,0 +1,2419 @@
+<version>
+        <pack>
+            <version>2.0.2</version>
+            <minecraft>1.7.10</minecraft>
+            <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
+            <extraarguments>--tweakClass=cpw.mods.fml.common.launcher.FMLTweaker</extraarguments>
+            <permgen>256</permgen>
+        </pack>
+    
+        <messages>
+<install><![CDATA[<center>Visit McbeyondReality.com for up to date information!</center> <center>Select recommended/Unbalanced for server.</center><center>HardMode currently Still in development. Do not attempt to select both mods together.</center>]]></install>
+    		<update><![CDATA[<center>Visit McbeyondReality.com for up to date information!</center> <center>Select recommended/Unbalanced for server.</center><center>HardMode currently Still in development. Do not attempt to select both mods together.</center>]]></update>
+    	</messages>
+	
+    <libraries>
+        <library 
+                 url="packs/BeyondRealityDimensionsCollide/files/libraries/launchwrapper-1.9.jar"
+                 file="launchwrapper-1.9.jar" 
+                 md5="a3da457dd2a94c41d4cb18f833825552" 
+                 server="net/minecraft/launchwrapper/1.9/launchwrapper-1.9.jar"
+                 download="server"/>
+        
+        <library 
+                 url="packs/BeyondRealityDimensionsCollide/files/libraries/asm-all-4.1.jar" 
+                 file="asm-all-4.1.jar"
+                 md5="d21c2a06a4e6b175aa01e328f38a1182" 
+                 server="org/ow2/asm/asm-all/4.1/asm-all-4.1.jar"
+                 download="server"/>
+        
+        <library 
+                 url="packs/BeyondRealityDimensionsCollide/files/libraries/akka-actor_2.11-2.3.3.jar" 
+                 file="akka-actor_2.11-2.3.3.jar" 
+                 md5="2a3d8946f684f928c48a2dd298c5cd29" 
+                 server="com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar" 
+                 download="server"/>
+        
+        <library 
+                 url="packs/BeyondRealityDimensionsCollide/files/libraries/config-1.2.1.jar" 
+                 file="config-1.2.1.jar" 
+                 md5="a88c2f8be90a5c41b87155cdff21e0db" 
+                 server="com/typesafe/config/1.2.1/config-1.2.1.jar" 
+                 download="server"/>
+        
+        <library 
+                 url="packs/BeyondRealityDimensionsCollide/files/libraries/scala-actors-migration_2.11-1.1.0.jar"
+                 file="scala-actors-migration_2.11-1.1.0.jar" 
+                 md5="f5e79398daa1806f8b17311a3c782723" 
+                 server="org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+                 download="server"/>
+        
+        <library 
+                 url="packs/BeyondRealityDimensionsCollide/files/libraries/scala-compiler-2.11.1.jar" 
+                 file="scala-compiler-2.11.1.jar" 
+                 md5="06030143bf86ca896fb6ccfd679b5760" 
+                 server="org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+                 download="server"/>
+        
+        <library url="packs/BeyondRealityDimensionsCollide/files/libraries/scala-continuations-library_2.11-1.0.2.jar" 
+                 file="scala-continuations-library_2.11-1.0.2.jar" 
+                 md5="c7d01e5a88182df7f22b7418abb51085" 
+                 server="org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+                 download="server"/>
+        
+        <library 
+                 url="packs/BeyondRealityDimensionsCollide/files/libraries/scala-continuations-plugin_2.11.1-1.0.2.jar" 
+                 file="scala-continuations-plugin_2.11.1-1.0.2.jar" 
+                 md5="daecef8fab296b764a8fb41fc07f2428" 
+                 server="org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar" 
+                 download="server"/>
+        
+        <library 
+                 url="packs/BeyondRealityDimensionsCollide/files/libraries/scala-library-2.11.1.jar" 
+                 file="scala-library-2.11.1.jar" 
+                 md5="1d88f665219e6006c5dd82d71c525c0f" 
+                 server="org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+                 download="server"/>
+        
+        <library 
+                 url="packs/BeyondRealityDimensionsCollide/files/libraries/scala-parser-combinators_2.11-1.0.1.jar"
+                 file="scala-parser-combinators_2.11-1.0.1.jar" 
+                 md5="4e694499c965af4a02599c99d4f0b196" 
+                 server="org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+                 download="server"/>
+        
+        <library url="packs/BeyondRealityDimensionsCollide/files/libraries/scala-reflect-2.11.1.jar"
+                 file="scala-reflect-2.11.1.jar" 
+                 md5="7878fac044e4e4b576bb35a77ccc34fc" 
+                 server="org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar" 
+                 download="server"/>
+        
+        <library url="packs/BeyondRealityDimensionsCollide/files/libraries/scala-swing_2.11-1.0.1.jar"
+                 file="scala-swing_2.11-1.0.1.jar" 
+                 md5="1009d69e4948045383f2a7a334348af5" 
+                 server="org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar" 
+                 download="server"/>
+        
+        <library url="packs/BeyondRealityDimensionsCollide/files/libraries/scala-xml_2.11-1.0.2.jar"
+                 file="scala-xml_2.11-1.0.2.jar" 
+                 md5="c2d7e66495afe14545c31b21e99879ef" 
+                 server="org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar" 
+                 download="server"/>
+        
+        <library url="packs/BeyondRealityDimensionsCollide/files/libraries/jopt-simple-4.5.jar"
+                 file="jopt-simple-4.5.jar"
+                 md5="1372bd4823bb1ef61e7db6724f601150"
+                 server="net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
+                 download="server"/>
+        
+        <library url="packs/BeyondRealityDimensionsCollide/files/libraries/lzma-0.0.1.jar" 
+                 file="lzma-0.0.1.jar"
+                 md5="a3e3c3186e41c4a1a3027ba2bb23cdc6" 
+                 server="lzma/lzma/0.0.1/lzma-0.0.1.jar"
+                 download="server"/>
+        
+        <library url="packs/BeyondRealityDimensionsCollide/files/libraries/realms-1.3.1.jar"
+                 file="realms-1.3.1.jar"
+                 md5="601b8e4c233e48e514518c15f49f273d"
+                 download="server"/>
+        
+        <library url="packs/BeyondRealityDimensionsCollide/files/libraries/guava-16.0.jar"
+                 file="guava-16.0.jar"
+                 md5="5286e2b8c38ff1ca83fb51e30af71f5a"
+                 download="server"/>
+        
+        <library url="packs/BeyondRealityDimensionsCollide/files/libraries/commons-lang3-3.2.1.jar"
+                 file="commons-lang3-3.2.1.jar" 
+                 md5="7fc4221e7e3a05d8052d3fbb34fb0a5a"
+                 download="server"/>
+        
+    </libraries>
+
+    <colours>
+        
+        <colour
+            name="red"
+            code="#B40404"
+            />
+        
+        <colour
+            name="blue"
+            code="#5846FF"
+            />
+        
+        <colour
+            name="green"
+            code="#00720D"
+            />
+        
+        <colour
+            name="yellow"
+            code="#EBFF00"
+            />
+        
+        <colour
+            name="orange"
+            code="#FF8D00"
+            />
+        
+        <colour
+            name="teal"
+            code="#00FFF3"
+            />
+        
+        <colour
+            name="purple"
+            code="#B700FF"
+            />
+        
+        <colour
+            name="lime"
+            code="#66FF00"
+            />
+        
+        <colour
+            name="babyblue"
+            code="#6F7EEE"
+            />
+        
+        <colour
+            name="gold"
+            code="#FFE600"
+            />
+        
+        <colour
+            name="brightred"
+            code="#FF003C"
+            />
+        
+        <colour
+            name="peach"
+            code="#ECA05D"
+            />
+        
+        <colour
+            name="white"
+            code="#FFFFFF"
+            />
+        
+        <colour
+            name="grey"
+            code="#BEBEBE"
+            />
+        
+    </colours>
+    
+    
+	<mods>
+    
+        
+        <!-- ~~~~~~~~~~ Forge ~~~~~~~~~~ -->
+        
+        <mod 
+             name="Minecraft Forge" 
+             version="10.13.0.1207" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/forge-1.7.10-10.13.0.1207-universal.jar" 
+             file="forge-1.7.10-10.13.0.1207-universal.jar" 
+             md5="24e73bf6eb746d8124fcbb92d4c24417" 
+             download="server" 
+             type="forge" 
+             hidden="yes"
+             colour="gold"
+             website="http://www.minecraftforge.net/forum/"
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z5MLLA62HSUM2" 
+             authors="Eloraam,FlowerChild,Hawkye,MALfunction84,Scokeev9,SpaceToad,LexManos,cpw" 
+             description="Minecraft Forge is a modding API used by alot of mods." />
+
+        <mod 
+             name="ForgeMultipart" 
+             version="1.1.0.307"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ForgeMultipart-1.7.10-1.1.0.307-universal.jar" 
+             file="ForgeMultipart-1.7.10-1.1.0.307-universal.jar" 
+             md5="7ae28210d143dd071b4f048b4f3076a5" 
+             download="server"  
+             type="dependency"
+             colour="gold"
+             hidden="yes"
+             website="" 
+             description="MultiPart" 
+             />
+        
+<!-- ~~~~~~~~~~ XML LAYOUT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+1: Default Mods
+2: Unbalanced Mods
+3: HardCore Mods
+4: Optional Mods
+5: Core Mods
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  ~~~~~~~~~~ -->
+        
+        
+        <!-- ~~~~~~~~~~ Default Mods ~~~~~~~~~~ -->
+       
+        
+        <mod 
+             name="Atum" 
+             version="0.6.15" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Atum-1.7.10-0.6.15.jar" 
+             file="Atum-1.7.10-0.6.15.jar" 
+             md5="9dd92c80f627504ba4862a90f9e41cf4" 
+             download="server" 
+             colour="peach"
+             type="mods" 
+             website="http://minecraft.curseforge.com/mc-mods/59621-atum" 
+             description="Take a journey to a land long but forgotten visit tall pyrimids in search for rare artifacts" 
+             />
+        
+        <mod 
+             name="appliedenergistics2" 
+             version="rv1-stable-1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/appliedenergistics2-rv1-stable-1.jar" 
+             file="appliedenergistics2-rv1-stable-1.jar" 
+             md5="53efce7859a96e5f6d3e452ca6d8b5ae" 
+             download="server"   
+             type="mods" 
+             colour="white"
+             website="" 
+             description="compact easy slightly over powered Advance item management at its best"
+             />
+        
+        <mod name="Automagy" 
+             version="0.10.2" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Automagy-1.7.10-0.10.2.jar" 
+             file="Automagy-1.7.10-0.10.2.jar" 
+             md5="df6decefbeb878e7335547638e44d589" 
+             download="server"   
+             type="mods" 
+             colour="purple"
+             website="" 
+             description="Expands golems logic thaumcraft addon" 
+             />
+        
+        
+        <mod 
+             name="BiblioCraft" 
+             version="1.8.1"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/BiblioCraft[v1.8.1][MC1.7.10].jar" 
+             file="BiblioCraft[v1.8.1][MC1.7.10].jar"
+             md5="623121e551330c4c3769bcb0fe4e1bc7" 
+             download="server"  
+             type="mods"
+             colour="peach"
+             website="http://www.bibliocraftmod.com"
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NLK9SWM3U77XS" 
+             authors="Joseph &apos;Nuchaz&apos; Sinclair" 
+             description="BiblioCraft adds fancy storage containers including bookcases, armor stands, potion shelves, regular shelves, tool racks, glass weapon cases, wooden desks and wooden chest labels and now add machines, redstone interactions, and eyeware! New in 1.3: Fancy lamps and golden lanterns. Also Tables and enchanted plates!" 
+             />
+        
+        
+        <mod 
+             name="BiblioWoods ExtraBiomesXL Edition" 
+             version="1.2" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/BiblioWoods[ExtraBiomesXL][v1.2].jar" 
+             file="BiblioWoods[ExtraBiomesXL][v1.2].jar" 
+             md5="07a9e5663c4f72949b3c9b97c70f42c5" 
+             download="server"
+             colour="peach"
+             type="mods" 
+             website="http://www.bibliocraftmod.com"
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NLK9SWM3U77XS" 
+             authors="Joseph &apos;Nuchaz&apos; Sinclair" 
+             description="Adds support for 9 varietys of wood from ExtraBiomesXL for 8 of the wooden block in BiblioCraft." 
+             />
+        
+        
+        <mod 
+             name="BiblioWoods Highlands Edition" 
+             version="1.3" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/BiblioWoods[Highlands][v1.3].jar" 
+             file="BiblioWoods[Highlands][v1.3].jar"
+             md5="3f681ddda276bbaac6770fbda62349a0" 
+             download="server"
+             colour="peach"
+             type="mods" 
+             website="http://www.bibliocraftmod.com" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NLK9SWM3U77XS" 
+             authors="Joseph &apos;Nuchaz&apos; Sinclair"
+             description="Adds support for 4 varietys of wood from Highlands for 8 of the wooden block in BiblioCraft."
+             />
+        
+        
+        <mod 
+             name="BiblioWoods Forestry Edition" 
+             version="1.6" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/BiblioWoods[Forestry][v1.6].jar" 
+             file="BiblioWoods[Forestry][v1.6].jar" 
+             md5="42f10d536ef6f248c215fcfac8c4eb80" 
+             download="server"  
+             type="mods"
+             colour="peach"
+             website="http://www.bibliocraftmod.com" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NLK9SWM3U77XS" 
+             authors="Joseph &apos;Nuchaz&apos; Sinclair"
+             description="Adds support for 24 varietys of wood from Forestry for 8 of the wooden block in BiblioCraft." 
+             />
+        
+        
+        <mod 
+             name="Blood Magic" 
+             version="1.1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Blood Magic-v1.1.0(1.7.10).jar" 
+             file="Blood Magic-v1.1.0(1.7.10).jar" 
+             md5="0a2bd8fa19cfbab587fcab334ef8490d" 
+             download="server"
+             type="mods" 
+             colour="peach"
+             website="" 
+             description="Blood Magic!" 
+             />
+        
+        
+        <mod 
+             name="Botania" 
+             version="r1.2-118" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Botania r1.2-118.jar" 
+             file="Botania r1.2-118.jar" 
+             md5="9003d2bdbe40ab876168d6e2a1e00530" 
+             download="server"     
+             type="mods"
+             colour="peach"
+             website="" 
+             description="Magic mana power conversion badass"
+             /> 
+        
+        
+        <mod 
+             name="BuildCraft" 
+             version="6.0.18" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/buildcraft-6.0.18.jar" 
+             file="buildcraft-6.0.18.jar" 
+             md5="8fbe8499b812664eebc35cbd110763f3" 
+             download="server"
+             colour="teal"
+             type="mods" 
+             website="" 
+             description="Pipes Oil Quarry" 
+             />
+        
+        
+        <mod name="BuildCraft Additions" 
+             version="1.6.4" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/BuildcraftAdditions-1.7.10-1.6.4.jar" 
+             file="BuildcraftAdditions-1.7.10-1.6.4.jar" 
+             md5="254ef724b4ece2e72ad4a9c54ed1bbd5" 
+             download="server" 
+             type="mods"
+             colour="teal"
+             website="" 
+             description="Additional items for buildcraft" 
+             />
+        
+        
+        <mod
+             name="Carpenter&apos;s Blocks" 
+             version="3.2.8" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Carpenters Blocks v3.2.8 - MC 1.7.10.jar" 
+             file="Carpenters Blocks v3.2.8 - MC 1.7.10.jar"
+             md5="8d4c69cfda00078d5465b39a64c1d4e7" 
+             download="server" 
+             type="mods" 
+             colour="peach"
+             website="http://www.minecraftforum.net/topic/1790919-" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=YGAB8YNHMQPLQ&amp;lc=US&amp;item_name=Minecraft%20Modding&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted" 
+             authors="Mineshopper" 
+             description="Adds slopes and a variety of vanilla-inspired blocks that support covers, side covers, overlays, dyes and chiseled patterns." 
+             />
+
+        
+        
+        <mod 
+             name="Chisel" 
+             version="1.5.7" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Chisel-1.7.10-1.5.7.jar" 
+             file="Chisel-1.7.10-1.5.7.jar" 
+             md5="8fd9c91d68256d1575d05fa31736e340" 
+             download="server"  
+             type="mods"
+             colour="peach"
+             website="http://www.minecraftforum.net/topic/1749374-" 
+             authors="AUTOMATIC_MAIDEN" 
+             description="Adds a chisel item that lets you carve blocks like cobblestone or sandstone. Adds two new blocks to world generation: marble and limestone, which can be be carved and crafted into many various building materials." 
+             />
+        
+        
+        <mod name="Chisel Facades" 
+             version="2.1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ChiselFacades-1.7.10-2.1.jar" 
+             file="ChiselFacades-1.7.10-2.1.jar" 
+             md5="4087e6f2e0514d145186cf54fe87fbe1" 
+             download="server"
+             type="mods"
+             colour="teal"
+             depends="BuildCraft"
+             website="" 
+             description="Adds chisel facades to buildcraft"
+             /> 
+        
+        
+        <mod 
+             name="Craft Heraldry" 
+             version="1.1.3" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/CraftHeraldry 1.1.3.jar" 
+             file="CraftHeraldry 1.1.3.jar" 
+             md5="db03a6365cd98d59862908ba868e1134" 
+             download="server" 
+             type="mods" 
+             colour="peach"
+             website="" 
+             description="Craft Heraldry! duh" 
+             />
+        
+        
+        <mod 
+             name="Custom Collection" 
+             version="1.7.10" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Custom Collection for 1.7.10.jar" 
+             file="Custom Collection for 1.7.10.jar" 
+             md5="2f48509ce0cf0037e2c5aca5f6a16ff8" 
+             download="server" 
+             server="no"
+             client="yes"
+             hidden="yes"
+             type="mods" 
+             website="" 
+             description="Custom modpack mods collection" 
+             />
+        
+        
+        <mod 
+             name="Dark Menagerie" 
+             version="1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/dark_menagerie-1.7.10-beta-1.0.jar" 
+             file="dark_menagerie-1.7.10-beta-1.0.jar" 
+             md5="b87bdd8fc8ab69d9fc2929ae5d0c2a82" 
+             download="server" 
+             type="mods" 
+             colour="peach"
+             website="" 
+             description="Adds some more flavor to minecrafts mod screen in a minimalistic way" 
+             />
+        
+        
+        <mod 
+             name="Doom Like Dungeons" 
+             version="1.4.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/DLDungeon-1.4.0-MC1.7.2.zip" 
+             file="DLDungeon-1.4.0-MC1.7.2.zip"
+             md5="b4631b6224511ec5512f450df3da6fbb"
+             download="server" 
+             type="mods"
+             colour="peach"
+             website="" 
+             description="Hard Core Dungeons"
+             />
+        
+        
+        <mod 
+             name="DecoCraft" 
+             version="1.10" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Decocraft-1.10_1.7.2and1.7.10.jar.zip" 
+             file="Decocraft-1.10_1.7.2and1.7.10.jar.zip" 
+             md5="b37981a0ddc718e633acefff05c90595" 
+             download="server" 
+             type="mods" 
+             colour="peach"
+             website="" 
+             description="Adds decor and more"
+             />
+        
+        
+        <mod 
+             name="DragonMounts" 
+             version="r41"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/DragonMounts-r41-1.7.10.jar" 
+             file="DragonMounts-r41-1.7.10.jar" 
+             md5="b58d25afa98680d4acb700c987b44d52" 
+             download="server" 
+             colour="peach"
+             type="mods" 
+             website="" 
+             description="Hatch and tame your own dragon mount!" 
+             />
+        
+        
+        <mod 
+             name="Dynamic Transport" 
+             version="0.1.2.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/DynamicTransport-0.1.2.0.jar" 
+             file="DynamicTransport-0.1.2.0.jar" 
+             md5="4eed26b8951e251845c840b2b2c8d708" 
+             download="server" 
+             type="mods"
+             website="" 
+             description="Multiblock MultiFloor Elevators. Build and design them anyway you want!" 
+             />
+        
+        
+        <mod 
+             name="ElectricalAge" 
+             version="BETA-1.9_r41"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ElectricalAge_BETA-1.9_r41.jar" 
+             file="ElectricalAge_BETA-1.9_r41.jar" 
+             md5="355242edfa86f9165f0896caa8106f29" 
+             download="server"  
+             type="mods" 
+             colour="white"
+             website="" 
+             description="Realistic eletric yes please"
+             />
+        
+        
+        <mod 
+             name="Ender IO" 
+             version="2.0.8.221" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/EnderIO-1.7.10-2.0.8.221.jar" 
+             file="EnderIO-1.7.10-2.0.8.221.jar" 
+             md5="0b07e44797f4d48147524079a53a70de" 
+             download="server"  
+             type="mods"
+             colour="white"
+             website="http://www.minecraftforum.net/topic/1937619-"
+             authors="crazypants" 
+             description="Compact conduits, painted things and access to your stuff through an eye of ender." 
+             />
+        
+        
+        <mod 
+             name="EnhancedPortals 3" 
+             version="3.0.6" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/EnhancedPortals_1.7.10-universal-3.0.6.jar" 
+             file="EnhancedPortals_1.7.10-universal-3.0.6.jar" 
+             md5="9a09fd9bd6a3650e10b4506cfaef3701" 
+             download="server" 
+             type="mods" 
+             colour="white"
+             website="http://www.minecraftforum.net/topic/2143651-" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=S4C57PNZZ6XYU" 
+             authors="Alz454" 
+             description="EnhancedPortals started out as a mod designed to give you a bit more customization for your Nether portals. You could increase the size, shape, or change it&apos;s colour. EnhancedPortals 3 takes this even further by leaving behind the focus of being a fully functional, boring, Nether portal." 
+             />
+
+        
+        
+        <mod 
+             name="ExtrabiomesXL"  
+             version="3.16.a18" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ExtrabiomesXL-universal-1.7.10-3.16.a18.jar" 
+             file="ExtrabiomesXL-universal-1.7.10-3.16.a18.jar" 
+             md5="8f6c1f9bc436ce83c2e115dfbe6174e2" 
+             download="server"  
+             type="mods" 
+             colour="peach"
+             website="http://www.minecraftforum.net/topic/1090288-" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=thefibermaster%40gmail%2ecom&amp;lc=US&amp;item_name=ExtrabiomesXL&amp;no_note=0&amp;currency_code=CAD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" 
+             authors="ScottKillen,MisterFiber,ExterminatorJeff,TDWP_FTP,JLBShecky" 
+             description="ExtrabiomesXL adds new aesthetic content that greatly enhances Minecraft&apos;s landscapes and exploration." 
+             />
+        
+        
+        <mod 
+             name="Extra Bees and Trees" 
+             version="2.0-dev4"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/binnie-mods-2.0-dev4.jar" 
+             file="binnie-mods-2.0-dev4.jar"
+             md5="8aaa6d0456baae69ea97d2dc2a956b1e" 
+             download="server"
+             type="mods" 
+             colour="teal"
+             depends="BuildCraft"
+             website="http://www.minecraftforum.net/topic/1324321-" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=KQWXKT6KK7SH4" 
+             authors="Binnie" 
+             description="Extra Bees and Extra Trees are addons for Forestry which adds in new species of bees and trees as well as their by products and new machines." 
+             />
+        
+        
+        <mod 
+             name="ExtraCells" 
+             version="1.7.10" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ExtraCells-1.7.10-2.1.12b8.jar" 
+             file="ExtraCells-1.7.10-2.1.12b8.jar" 
+             md5="1ed44c81073f0017fe6fce83a037163e" 
+             download="server" 
+             type="mods"
+             colour="white"
+             website="http://www.minecraftforum.net/topic/1801643-" 
+             authors="M3gaFr3ak" 
+             description="A Mod that adds 4 new ME Storage Cells and some other cool stuff to AE." 
+             />
+        
+        
+        <mod 
+             name="Flat Signs" 
+             version="2.0.0.17"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/FlatSigns-1.7.10-universal-2.0.0.17.jar" 
+             file="FlatSigns-1.7.10-universal-2.0.0.17.jar"
+             md5="8da5fdff6b17b48e82d24aeb555b7f45" 
+             download="server" 
+             type="mods"
+             colour="peach"
+             website="" 
+             description="Put signs anywhere"
+             />
+        
+        
+        <mod 
+             name="Flaxbeards SteamPower!" 
+             version="0.26.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/FlaxbeardsSteamPower-1.7.10-0.26.2.jar" 
+             file="FlaxbeardsSteamPower-1.7.10-0.26.2.jar" 
+             md5="316fe11d6a215111914976ed8b723f52" 
+             download="server" 
+             type="mods" 
+             colour="white"
+             website="" 
+             description="Steam punk power!" 
+             />
+        
+   
+        <mod 
+             name="Forestry" 
+             version="3.0.0.149" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/forestry_1.7.10-3.0.0.149.jar" 
+             file="forestry_1.7.10-3.0.0.149.jar" 
+             md5="6277a06559601d10c4f1f586dc63acf9" 
+             download="server"   
+             type="mods"
+             depends="BuildCraft"
+             colour="teal"
+             website="" 
+             description="Bees farms and more" 
+             />
+        
+        
+        <mod 
+             name="Fossils Archeology Revival!" 
+             version="6.4b" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Fossils_Archeology_Revival-1.7.10_Build-6.4b.jar" 
+             file="Fossils_Archeology_Revival-1.7.10_Build-6.4b.jar" 
+             md5="2098c8bdd7b22406789b789a65415dbb"
+             download="server"
+             type="mods"
+             colour="white"
+             website="" 
+             description="Dinos"
+             />
+       
+        
+        <mod 
+             name="Galacticraft" 
+             version="3.0.1.200" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/GalacticraftCore-BETA-1.7-3.0.3.200.jar" 
+             file="GalacticraftCore-BETA-1.7-3.0.3.200.jar" 
+             md5="3fc6f7bd07799de0ee288eb681bf0839" 
+             download="server" 
+             type="mods"
+             colour="white"
+             website="" 
+             description="Sky is the limit"
+             />
+        
+        
+        <mod 
+             name="Galacticraft Planets"
+            version="3.0.3.200" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Galacticraft-Planets-BETA-1.7-3.0.3.200.jar" 
+             file="Galacticraft-Planets-BETA-1.7-3.0.3.200.jar"
+             md5="cd65177c3232d081ff791dd58e4647bc" 
+             download="server"  
+             type="mods" 
+             colour="white"
+             depends="Galacticraft"
+             website="http://www.micdoodle8.com/mods/galacticraft" 
+             donation="http://www.micdoodle8.com/" 
+             authors="micdoodle8" 
+             description="Planet addon for Galacticraft." 
+             />
+        
+        
+        <mod 
+             name="GraveStone" 
+             version="2.9.4" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/GraveStone 2.9.4.jar" 
+             file="GraveStone 2.9.4.jar" 
+             md5="836ee7cea1fce11a3cb6bfd1a7a7fcbe"
+             download="server"  
+             type="mods"
+             colour="peach"
+             website="" 
+             description="Adds gravestones on death massive graveyard dungeons!" 
+             />
+        
+        
+        <!-- ~~~~~~~~~~ GrowthCraft ~~~~~~~~~~ -->
+       
+        
+        <mod 
+             name="GrowthCraft Apples" 
+             version="2.1.0"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/growthcraft-apples-1.7.10-2.1.0.jar" 
+             file="growthcraft-apples-1.7.10-2.1.0.jar" 
+             md5="9d07164344883e4c0bf500531fabebfd" 
+             download="server"
+             type="mods"
+             colour="green"
+             website="http://www.minecraftforum.net/topic/1510394-" 
+             authors="Gwafu" 
+             description="Improves the way of farming apples and addition of Apple Ciders." 
+             />
+        
+        
+        <mod 
+             name="GrowthCraft Bamboo" 
+             version="2.1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/growthcraft-bamboo-1.7.10-2.1.0.jar" 
+             file="growthcraft-bamboo-1.7.10-2.1.0.jar" 
+             md5="e1a09f4fe76a80621f48042ea967b8db" 
+             download="server" 
+             type="mods" 
+             colour="green"
+             website="http://www.minecraftforum.net/topic/1510394-"
+             authors="Gwafu" 
+             description="Adds bamboos which can be crafted to fresh looking aesthetics" 
+             />
+        
+        
+        <mod 
+             name="GrowthCraft Core: Cellar" 
+             version="2.1.0a" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/growthcraft-cellar-1.7.10-2.1.0a.jar" 
+             file="growthcraft-cellar-1.7.10-2.1.0a.jar" 
+             md5="4a6f42229072eecdea2829957ec964af"
+             download="server" 
+             type="mods" 
+             colour="green"
+             website="http://www.minecraftforum.net/topic/1510394-" 
+             authors="Gwafu" 
+             description="Shared files within GrowthCraft" 
+             />
+        
+        
+        <mod 
+             name="GrowthCraft Core" 
+             version="2.1.0a" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/growthcraft-core-1.7.10-2.1.0a.jar" 
+             file="growthcraft-core-1.7.10-2.1.0a.jar"
+             md5="05d64d9f59b3ccd2f6464b8797024639" 
+             download="server" 
+             type="mods" 
+             colour="green"
+             website="http://www.minecraftforum.net/topic/1510394-" 
+             authors="Gwafu" 
+             description="Shared files within GrowthCraft" 
+             />
+        
+        
+        <mod 
+             name="GrowthCraft Fishtrap" 
+             version="2.1.0a" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/growthcraft-fishtrap-1.7.10-2.1.0a.jar" 
+             file="growthcraft-fishtrap-1.7.10-2.1.0a.jar" 
+             md5="d6306ae3e7173ce01b08f2b5c482010b"
+             download="server"
+             type="mods"
+             colour="green"
+             website="http://www.minecraftforum.net/topic/1510394-" 
+             authors="Gwafu" 
+             description="Adds Fishnets, an automatic way of gathering fish." 
+             />
+        
+        
+        <mod 
+             name="GrowthCraft Grapes" 
+             version="2.1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/growthcraft-grapes-1.7.10-2.1.0.jar" 
+             file="growthcraft-grapes-1.7.10-2.1.0.jar" 
+             md5="8618e01c4efd64d2c6ab9ac5d8f84f6f" 
+             download="server" 
+             type="mods"
+             colour="green"
+             website="http://www.minecraftforum.net/topic/1510394-"
+             authors="Gwafu" 
+             description="Adds Grapes which can be brewed into Grape Wine." 
+             />
+        
+        
+        <mod 
+             name="GrowthCraft Hops" 
+             version="2.1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/growthcraft-hops-1.7.10-2.1.0.jar" 
+             file="growthcraft-hops-1.7.10-2.1.0.jar"
+             md5="ae73f9c73ca2249e84bdad038cc2daf2" 
+             download="server" 
+             type="mods"
+             colour="green"
+             website="http://www.minecraftforum.net/topic/1510394-" 
+             authors="Gwafu" 
+             description="Adds Hops which can be brewed into Ale." 
+             />
+        
+        
+        <mod 
+             name="GrowthCraft Rice" 
+             version="2.1.0a" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/growthcraft-rice-1.7.10-2.1.0a.jar" 
+             file="growthcraft-rice-1.7.10-2.1.0a.jar"
+             md5="43d71a38543c8d7202e0c4ba2c33ac8c" 
+             download="server" 
+             type="mods" 
+             colour="green"
+             website="http://www.minecraftforum.net/topic/1510394-"
+             authors="Gwafu" 
+             description="Adds rice which can be crafted to rice balls and brewed into rice wine" 
+             />
+        
+        
+
+        <mod 
+             name="Iron Chest"
+             version="6.0.51.734"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ironchest-1.7.10-6.0.51.734-universal.jar" 
+             file="ironchest-1.7.10-6.0.51.734-universal.jar" 
+             md5="a8cd877f40c9064b56dd700c26e081f5" 
+             download="server" 
+             type="mods"
+             colour="white"
+             website="http://www.minecraftforum.net/topic/981855-" 
+             authors="cpw" 
+             description="New chests with larger sizes, with in-place upgrade items." 
+             />
+        
+        
+        
+        <mod 
+             name="JABBA" 
+             version="1.1.4" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Jabba-1.1.4_1.7.10.jar" 
+             file="Jabba-1.1.4_1.7.10.jar"
+             md5="3fb08cd3741ae159ebf70ecda3b57593" 
+             download="server" 
+             type="mods" 
+             colour="peach"
+             website="" 
+             description="Just another better barrel attempt" 
+             />
+        
+        
+        <mod 
+             name="Logistic Pipes" 
+             version="0.8.0.59" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/logisticspipes-0.8.0.59.jar" 
+             file="logisticspipes-0.8.0.59.jar" 
+             md5="b581ff7486b0c37a01161040298609c6" 
+             download="server"   
+             type="mods" 
+             colour="teal"
+             website="" 
+             description="Sorting system and automation with BC pipes" 
+             />
+        
+        
+        <mod 
+             name="Lord of the rings mod" 
+             version="b20.2" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/[1.7.10] The Lord of the Rings Mod B20.2.jar" 
+             file="[1.7.10] The Lord of the Rings Mod B20.2.jar"
+             md5="e25ccfb95f493a2b60b0a9ab96224c8e" 
+             download="server" 
+             type="mods" 
+             colour="peach"
+             website=""
+             description="LOTR should I say more?" 
+             />
+        
+        
+        <mod 
+             name="Lucky Blocks" 
+             version="5-1-1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/[1-7-10]_Lucky_Block_v5-1-0.jar" 
+             file="[1-7-10]_Lucky_Block_v5-1-0.jar" 
+             md5="7e2819ee5ae679adf64b19afba91acfb" 
+             download="server" 
+             colour="peach"
+             type="mods" 
+             website="" 
+             description="Random blocks of luck or dispair! " 
+             />
+        
+        
+        <mod 
+             name="Magic Bees" 
+             version="1.7.10-2.1.19" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/magicbees-1.7.10-2.1.19.jar" 
+             file="magicbees-1.7.10-2.1.19.jar" 
+             md5="aebe09ff4808d56390085cd1dd82746a" 
+             download="server" 
+             type="mods"
+             depends="BuildCraft"
+             colour="teal"
+             website="http://www.minecraftforum.net/topic/1627856-" 
+             authors="MysteriousAges" 
+             description="Magic themed bee expansion for Forestry. TC3, EE3, AM compatible!" 
+             />
+        
+        
+        <mod 
+             name="Malisisdoors"
+             version="1.1.3" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/malisisdoors-1.7.10-1.1.3.jar" 
+             file="malisisdoors-1.7.10-1.1.3.jar"
+             md5="a838c70b53dc80e5b7cdbb8c4f43b375" 
+             download="server"   
+             type="mods"
+             colour="peach"
+             website="" 
+             description="The best doors you have even seen" 
+             />
+        
+       
+        <mod 
+             name="Mffs" 
+             version="4.1.0.31" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/mffs-4.1.0.31-core.jar" 
+             file="mffs-4.1.0.31-core.jar" 
+             md5="19edf2e30729db78aba2604c16436398"
+             download="server"  
+             type="mods"
+             colour="white"
+             website="" 
+             description="Modular Force Field!" 
+             />
+        
+        
+        <mod 
+             name="MineFactory Reloaded" 
+             version="[1.7.10]2.8.0RC3-591" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/MineFactoryReloaded-[1.7.10]2.8.0RC3-591.jar" 
+             file="MineFactoryReloaded-[1.7.10]2.8.0RC3-591.jar" 
+             md5="4595dc11752aabce0da9667d7552da61"
+             download="server"
+             type="mods"
+             depends="CoFH Framework"
+             colour="red"
+             website="http://www.minecraftforum.net/topic/2016680-" 
+             authors="PowerCrystals,TehKrush,AtomicStryker,Feanorith,skyboy026" 
+             description="Automate everything!" 
+             />
+                
+      
+        <mod 
+             name="MineTweaker" 
+             version="3.0.8" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/MineTweaker3-1.7.10-3.0.8.jar" 
+             file="MineTweaker3-1.7.10-3.0.8.jar" 
+             md5="e9f81750e9cd38820eab96767d432853" 
+             download="server" 
+             type="mods"
+             hidden="yes"
+             colour="blue"
+             website="" 
+             description="Tweak mods for modpacks" 
+             />
+        
+        
+        <mod 
+             name="Mine &amp; Blade Battlegear 2 - Warcry" 
+             version="1.0.6.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/1.7.10-MB_Battlegear2-Bullseye-1.0.6.0.jar" 
+             file="1.7.10-MB_Battlegear2-Bullseye-1.0.6.0.jar"
+             md5="d1008485ceba4e68e237473ef0cf2fb3" 
+             download="server"  
+             type="mods"
+             colour="peach"
+             website="http://www.minecraftforum.net/topic/1944903-" 
+             authors="nerd-boy,GotoLink" 
+             description="A WIP, opensource combat mod, focusing on groundbreaking features and balanced combat" 
+             />
+        
+        
+        <mod 
+             name="MinePainter" 
+             version="0.2.6"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/minepainter-0.2.6.jar" 
+             file="minepainter-0.2.6.jar" 
+             md5="101201bcdb2119a370976e59c2a3252d" 
+             download="server"
+             colour="peach"
+             type="mods" 
+             website="" 
+             description="You have to try this! sculpt a block any way you want. Paint it place it and enjoy" 
+             />
+        
+
+        
+        <mod 
+             name="ModTweaker" 
+             version="0.5d"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ModTweaker-1.7.X-0.5d.jar" 
+             file="ModTweaker-1.7.X-0.5d.jar"
+             md5="790a4fd80e229e5873c9f1b8241842c4"
+             download="server" 
+             type="mods" 
+             hidden="yes"
+             colour="blue"
+             website="" 
+             description="Addon for minetweaker" 
+             />
+
+
+        
+        <mod 
+             name="Morpheus" 
+             version="1.5.19" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Morpheus-1.7.10-1.5.19.jar" 
+             file="Morpheus-1.7.10-1.5.19.jar" 
+             md5="9d8d9ad029458a0c05f103a1fb370290" 
+             download="server" 
+             server="yes"
+             client="no"
+             optional="yes"
+             recommended="yes"
+             type="mods" 
+             website="http://minecraft.curseforge.com/mc-mods/morpheus/" 
+             donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=5AH8F9SRGY8HA&amp;item_name=Morpheus+%28from+CurseForge.com%29&amp;cmd=_s-xclick" 
+             authors="quetzi" 
+             description="Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate." 
+             />
+        
+        
+        <mod 
+             name="MrCrayfishFurniture" 
+             version="3.3.5" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/MrCrayfishFurnitureModv3.3.5(1.7.10).jar" 
+             file="MrCrayfishFurnitureModv3.3.5(1.7.10).jar"
+             md5="421e1d16fab5a9a7c51afedeabe0cb6a" 
+             download="server" 
+             type="mods"
+             colour="peach"
+             website="" 
+             description="Adds furniture to minecraft" 
+             />
+        
+        
+        <!-- ~~~~~~~~~~ NEI ~~~~~~~~~~ -->                                              
+        
+         <mod 
+              name="NEI Addons" 
+              version="1.12.2.9"
+              url="packs/BeyondRealityDimensionsCollide/files/1710mods/neiaddons-mc1710-1.12.2.9.jar" 
+              file="neiaddons-mc1710-1.12.2.9.jar"
+              md5="b239f324391abd05e16c646c77ddbdd7" 
+              download="server" 
+              type="mods" 
+              colour="gold"
+              website="http://www.minecraftforum.net/topic/1803460-"
+              donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" 
+              authors="bdew" 
+              description="Adds in mod integration into NEI by showing bee breeding information as well as other helpful mod plugins." 
+              />
+        
+        
+        <mod 
+             name="NEI Plugins" 
+             version="MC1.7.10-1.1.0.8-unofficial" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/NEIPlugins-MC1.7.10-1.1.0.8-unofficial.jar" 
+             file="NEIPlugins-MC1.7.10-1.1.0.8-unofficial.jar" 
+             md5="35013a451c7f3967c8a9bf397b4f6cf6"
+             download="server"
+             type="mods"
+             colour="gold"
+             website="https://bitbucket.org/mistaqur/nei_plugins/wiki"
+             authors="mistaqur" 
+             description="Adds mod integration into NEI" 
+             />
+        
+        
+        <mod 
+             name="NotEnoughItems" 
+             version="1.0.3.56" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/NotEnoughItems-1.7.10-1.0.3.56-universal.jar" 
+             file="NotEnoughItems-1.7.10-1.0.3.56-universal.jar" 
+             md5="c44998da0cac24b92ec659f3e9a0e106" 
+             download="server"  
+             type="mods"
+             colour="gold"
+             website="http://www.minecraftforum.net/topic/909223-" 
+             donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
+             authors="ChickenBones" 
+             description="Allows you to quickly and easily look up recipes and uses for any item in Minecraft included modded items. Also allows easy spawning of items and a range of one click utilities." 
+             />
+        
+        <!-- ~~~~~~~~~~ NEI END ~~~~~~~~~~ -->
+        
+        <mod 
+             name="Nether Ores" 
+             version="[1.7.10]2.3.0RC3-84" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/NetherOres-[1.7.10]2.3.0RC3-84.jar" 
+             file="NetherOres-[1.7.10]2.3.0RC3-84.jar" 
+             md5="b0910466b14ee6e1d43d0f8b7a437b8d" 
+             download="server" 
+             type="mods" 
+             depends="CoFH Framework"
+             colour="red"
+             website="http://www.minecraftforum.net/topic/2016680-162164-" 
+             authors="PowerCrystals,TehKrush,AtomicStryker,skyboy026" 
+             description="Introduces mineable yet dangerous ores to the Nether" 
+             />
+        
+        
+        <mod 
+             name="OpenBlocks" 
+             version="1.7.10-1.3-snapshot-433" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/OpenBlocks-1.7.10-1.3-snapshot-433.jar" 
+             file="OpenBlocks-1.7.10-1.3-snapshot-433.jar"
+             md5="fae712ad8279abcf6d7cae837845046e" 
+             download="server" 
+             type="mods"
+             colour="yellow"
+             website="http://www.minecraftforum.net/topic/1941514-" 
+             donation="http://www.patreon.com/openmods" 
+             authors="Mikee,NeverCast,boq,Lyqyd" 
+             description="OpenBlocks is a random collection of ideas - ideas the community have suggested, or ideas we thought &quot;Why hasn&apos;t anyone done that yet?&quot;. There is no theme, it&apos;s quite random. It&apos;s not even just blocks, as the name suggests!" 
+             />
+        
+        
+        
+        <mod 
+             name="OpenComponents" 
+             version="0.2.0.15" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/OpenComponents-MC1.7.10-0.2.0.15-universal.jar" 
+             file="OpenComponents-MC1.7.10-0.2.0.15-universal.jar" 
+             md5="63db7404dd8d092aeb2cc870dc243584"
+             download="server" 
+             type="mods" 
+             colour="yellow"
+             website="http://www.minecraftforum.net/topic/2201440-" 
+             authors="Sangar" 
+             description="OpenComponents is an addon mod for OpenComputers that adds support for many blocks from other mods via the Adapter block." 
+             />
+        
+        
+        
+        <mod 
+             name="OpenComputers" 
+             version="1.3.3.61" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/OpenComputers-MC1.7.10-1.3.3.61-universal.jar" 
+             file="OpenComputers-MC1.7.10-1.3.3.61-universal.jar" 
+             md5="3e04a1602afb8adb94eff33e4c938ccd"
+             download="server"
+             type="mods" 
+             colour="yellow"
+             website="http://www.minecraftforum.net/topic/2201440-"
+             authors="Sangar" 
+             description="This mod adds programmable, modular and persistent computers to the game." 
+             />
+        
+        
+        <mod 
+             name="PneumaticCraft" 
+             version="1.2.6" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/PneumaticCraft-1.2.6.jar" 
+             file="PneumaticCraft-1.2.6.jar" 
+             md5="d340ff49ef9aa2c20b5fcee40fa34016" 
+             download="server" 
+             type="mods" 
+             colour="white"
+             website="http://www.minecraftforum.net/topic/1841226-" 
+             authors="MineMaarten" 
+             description="A technical mod all about pneumatics!" 
+             />
+        
+        
+        <mod 
+             name="Pressure Pipes"
+             version="0.9.3.27"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/pressure-mc1710-0.9.3.27.jar" 
+             file="pressure-mc1710-0.9.3.27.jar" 
+             md5="182354e9f0207cd6e2443d63db20c3d9" 
+             download="server"  
+             type="mods"
+             linked="CoFH Framework"
+             depends="BdLib"
+             colour="brightred"
+             website="" 
+             description="Pipe liquids in a massive scale"
+             />
+        
+        <!-- ~~~~~~~~~~ ProjectRed ~~~~~~~~~~ -->
+     
+        <mod 
+             name="ProjectRed-Base" 
+             version="4.4.8.49" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ProjectRed-Base-1.7.10-4.4.9.49.jar" 
+             file="ProjectRed-Base-1.7.10-4.4.9.49.jar"
+             md5="749202ec938372bce31c4ea17c59e16a" 
+             download="server" 
+             colour="brightred"
+             type="mods"
+             website="" 
+             description="Base" 
+             />
+        
+        
+        
+        <mod 
+             name="ProjectRed Compat" 
+             version="4.4.8.49" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ProjectRed-Compat-1.7.10-4.4.9.49.jar" 
+             file="ProjectRed-Compat-1.7.10-4.4.9.49.jar" 
+             md5="bd89d986afce40e1aa19cf3aa2610728" 
+             download="server" 
+             colour="brightred"
+             type="mods" 
+             website="" 
+             description="Compat"
+             />
+        
+        
+        <mod name="ProjectRed Intergration"
+             version="4.4.8.49" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ProjectRed-Integration-1.7.10-4.4.9.49.jar" 
+             file="ProjectRed-Integration-1.7.10-4.4.9.49.jar" 
+             md5="c3395336e36745b8edea50b857a105c5" 
+             download="server" 
+             colour="brightred"
+             type="mods"
+             website="" 
+             description="Intergration"
+             />
+        
+        
+        <mod 
+             name="ProjectRed-Lighting" 
+             version="4.4.8.49" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ProjectRed-Lighting-1.7.10-4.4.9.49.jar" 
+             file="ProjectRed-Lighting-1.7.10-4.4.9.49.jar" 
+             md5="1e73b55ec23efffb95d3aab4eab9494b" 
+             download="server"  
+             type="mods"
+             colour="brightred"
+             website=""
+             description="Lighting"
+             />
+        
+        <!-- ~~~~~~~~~~ ProjectRed END ~~~~~~~~~~ -->
+        
+        
+        <mod 
+             name="PvpToggle" 
+             version="0.1.0-8" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/pvpToggle-1.7.10-0.1.0-8.jar" 
+             file="pvpToggle-1.7.10-0.1.0-8.jar"
+             md5="e2f6c3fc6e52d3e5657d03a457b4c1f9" 
+             download="server" 
+             type="mods"
+             colour="lime"
+             website="" 
+             description="Toggle pvp on or off" 
+             />
+        
+        
+        <mod 
+             name="Railcraft" 
+             version="9.3.1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Railcraft_1.7.10-9.3.1.0.jar" 
+             file="Railcraft_1.7.10-9.3.1.0.jar" 
+             md5="e2e230805029c92860384959f89d2cd4" 
+             download="server"             
+             type="mods"
+             depends="BuildCraft"
+             colour="teal"
+             website="http://www.railcraft.info/" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=HCQMGHQ4D5GQ4" 
+             authors="CovertJaguar" 
+             description="Redefine your rails" 
+             />
+        
+        
+        <mod 
+             name="Remain In Motion" 
+             version="2.1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/RemainInMotion-2.1.0.jar" 
+             file="RemainInMotion-2.1.0.jar"
+             md5="ed2a22eae6d3de854587718beb2fb024" 
+             download="server" 
+             type="mods" 
+             colour="white"
+             website="http://forums.technicpack.net/topic/59545-" 
+             authors="planetguy" 
+             description="A reimplementation of Redpower frames, with more flexibility and functionality, and including many new types of frames."
+             />
+        
+        
+        <mod 
+             name="Refined Relocation" 
+             version="1.0.6d" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/RefinedRelocation-1.7.10-1.0.6d.jar" 
+             file="RefinedRelocation-1.7.10-1.0.6d.jar"
+             md5="73b0d3530f50510ade8ec0d4ecd3858d" 
+             download="server" 
+             type="mods" 
+             colour="white"
+             website="http://www.minecraftforum.net/topic/2210752-"
+             authors="Dynious"
+             description="Players of modded Minecraft face many problems: chests are too messy, you need to fit that one pipe onto a block, but it doesn&apos;t look nice that way, there are too many pipes everywhere etc. Refined Relocation is here to make your modded Minecraft life easier! Not another new system, but something that works with existing systems and makes it better." 
+             />
+        
+        
+        <mod 
+             name="Roguelike Dungeons Mod" 
+             version="1.3.5" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/roguelike-1.7.10-1.3.5.jar" 
+             file="roguelike-1.7.10-1.3.5.jar"
+             md5="837aa33c8a44ac5d2af12a469aed889f" 
+             download="server" 
+             type="mods" 
+             colour="peach"
+             website="http://www.minecraftforum.net/topic/1874883-" 
+             authors="Greymerk" 
+             description="A mod that adds random dungeon complexes to the world" 
+             />   
+        
+        
+        <mod 
+             name="Simply Jetpacks"  
+             version="MC1.7.10-1.1.2" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/SimplyJetpacks-MC1.7.10-1.1.2.jar" 
+             file="SimplyJetpacks-MC1.7.10-1.1.2.jar"
+             md5="8f1feb4822083bfbcff539f90c750e03"
+             download="server"  
+             type="mods"
+             depends="CoFH Framework"
+             colour="red"
+             website="http://www.minecraftforum.net/topic/2548594-" 
+             authors="tonius11" 
+             description="This is a small mod that adds Redstone Flux-powered jetpacks to the game" 
+             />
+         
+        
+        <mod 
+             name="Statues"
+             version="2.1.3" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/statues-1.7.10-2.1.3.jar" 
+             file="statues-1.7.10-2.1.3.jar" 
+             md5="75ba3573b5ddf250740d2c35a8c46d3f" 
+             download="server" 
+             type="mods" 
+             colour="peach"
+             website="http://www.minecraftforum.net/topic/2115090-" 
+             authors="AUTOMATIC_MAIDEN" 
+             description="Create statues out of various blocks" 
+             />
+        
+        
+        
+        <mod 
+             name="Steve&apos;s Carts 2" 
+             version="2.0.0.b17" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/StevesCarts2.0.0.b17.jar" 
+             file="StevesCarts2.0.0.b17.jar" 
+             md5="d8fdb71fdbdc96eea477cda5d98e07cd" 
+             download="server" 
+             type="mods"
+             colour="white"
+             website="http://www.minecraftforum.net/topic/680276-" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z7NBL3BRBCNFC" 
+             authors="Vswe"
+             description="Steve&apos;s Carts 2 introduces a modular system where you can build a huge amount of carts(hundreds of millions) by combining the parts you want." 
+             />
+        
+        
+        <mod 
+             name="StevesWorkshop" 
+             version="0.5.1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/StevesWorkshop-0.5.1.jar" 
+             file="StevesWorkshop-0.5.1.jar"
+             md5="466afe4bd2f08913d45a181e0635235a" 
+             download="server" 
+             colour="white"
+             type="mods" 
+             website="" 
+             description="Autocrafting all in one work bench" 
+             />
+        
+        
+       <mod 
+            name="StorageDrawers" 
+            version="1.0.2" 
+            url="packs/BeyondRealityDimensionsCollide/files/1710mods/StorageDrawers-1.0.2.jar" 
+            file="StorageDrawers-1.0.2.jar" 
+            md5="4f52888c66cc51389c8e2555dda0040f" 
+            download="server" 
+            colour="peach"
+            type="mods"
+            website=""
+            description="Better looking and more fuctional than barrles" 
+            />
+        
+        
+        
+        <mod 
+             name="SuperCraftingFrame" 
+             version="1.7.10.1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/supercraftingframe-1.7.10.1.jar" 
+             file="supercraftingframe-1.7.10.1.jar" 
+             md5="f6d3e08a2dca79438f1141be4424574c" 
+             download="server"
+             colour="peach"
+             type="mods" 
+             website="" 
+             description="Guiless AutoCrafting!" 
+             />
+
+     
+        <mod 
+             name="ThaumCraft4" 
+             version="2.0.1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Thaumcraft-1.7.10-4.2.0.1.jar" 
+             file="Thaumcraft-1.7.10-4.2.0.1.jar"
+             md5="61ed522f1cfcb9d92983e7feaac3299a" 
+             download="server" 
+             type="mods"
+             colour="purple"
+             website="" 
+             description="Balanced Magic"
+             />
+        
+        <mod 
+             name="ThaumCraft Mob Aspects" 
+             version="1.7.2-2a" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ThaumcraftMobAspects-1.7.2-2A.jar" 
+             file="ThaumcraftMobAspects-1.7.2-2A.jar" 
+             md5="c5de49474e6a26e1de8b04a8f45c69b7" 
+             download="server" 
+             type="mods"
+             colour="purple"
+             website=""
+             description="Adds Aspects to modded mobs" 
+             />
+        
+
+        <mod 
+             name="thaumicenergistics" 
+             version="0.6.10b" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/thaumicenergistics-0.6.10b.jar" 
+             file="thaumicenergistics-0.6.10b.jar"
+             md5="353de4205a15036b69830b8e93264fc4" 
+             download="server"  
+             type="mods"
+             colour="purple"
+             website="" 
+             description="Bridge between thaumcraft and AE2" 
+             /> 
+        
+        
+        <mod 
+             name="The Erebus"
+             version="0.2pre10" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/TheErebus-0.2pre10.jar" 
+             file="TheErebus-0.2pre10.jar" 
+             md5="7950c7d074cdcc899524befbd00d4f78" 
+             download="server" 
+             colour="peach"
+             type="mods" 
+             website="http://minecraft.curseforge.com/mc-mods/220698-the-erebus" 
+             description="The Erebus focuses on adding a whole new dimension to Minecraft, with many new creatures to slay, things to create and lands to explore. Other things, such as an in-depth magic system and many dungeons are planned as well." 
+             />
+        
+        
+        <mod 
+             name="The Twilight Forest" 
+             version="1.7.10-2.3.2" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/twilightforest-1.7.10-2.3.2.jar" 
+             file="twilightforest-1.7.10-2.3.2.jar" 
+             md5="c4123a787738ac6a42941112b1cf69af" 
+             download="server"   
+             type="mods" 
+             colour="peach"
+             website="http://www.minecraftforum.net/topic/561673-" 
+             authors="Benimatic (Ben Mazur)" 
+             description="An enchanted forest dimension." 
+             />
+        
+        
+        <mod 
+             name="Thermal Expansion" 
+             version="[1.7.10]4.0.0B5-13" 
+             url="packs/BeyondRealityDimensionsCollide/files/ThermalExpansion-[1.7.10]4.0.0B5-13.jar" 
+             file="ThermalExpansion-[1.7.10]4.0.0B5-13.jar" 
+             md5="c1e68d4036575889f69b5c33e9d89904"
+             download="server" 
+             type="mods" 
+             colour="red"
+             website="http://thermalexpansion.wikispaces.com" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3M6YK5LMC4GT6" 
+             authors="KingLemmingCoFH,Cynycal,ZeldoKavira" 
+             description="Expanding Minecraft thermally - provides new options for automation and processing!" 
+             />
+        
+ 
+        <mod 
+             name="Tinkers&apos; Construct" 
+             version="1.7.0d2" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/TConstruct-1.7.10-1.7.0d2.jar" 
+             file="TConstruct-1.7.10-1.7.0d2.jar"
+             md5="b025e4472eee9287db7b7401019a32a7" 
+             download="server"   
+             type="mods" 
+             colour="peach"
+             website="http://www.minecraftforum.net/topic/1659892-" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=56Q7K92KRPW2N&amp;lc=US&amp;item_name=TinkersConstruct&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" 
+             authors="mDiyo,fuj1n,ProgWML6,Sunstrike" 
+             description="A little of this, a little of that, a lot of tinkering, and a lot of tools" 
+             />
+        
+        
+        <mod 
+             name="Tinkers&apos; Mechworks" 
+             version="0.2.8" url="packs/BeyondRealityDimensionsCollide/files/1710mods/TMechworks_mc1.7.10_0.2.8.jar" 
+             file="TMechworks_mc1.7.10_0.2.8.jar" 
+             md5="8deee7387902cb9171ad66ea3ca19072"
+             download="server" 
+             colour="peach"
+             type="mods" 
+             website="http://www.minecraftforum.net/topic/1659892-" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=56Q7K92KRPW2N&amp;lc=US&amp;item_name=TinkersConstruct&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted" 
+             authors="mDiyo,fuj1n,ProgWML6,Sunstrike,Pillbox" 
+             description="Addon for Tinkers Construct" 
+             />
+        
+        
+        <mod 
+             name="TravellersGear" 
+             version="1.5" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/TravellersGear-1.7.10-1.5(1).jar" 
+             file="TravellersGear-1.7.10-1.5(1).jar" 
+             md5="abc01c4f35b312bb37424d3f3b470aed" 
+             download="server" 
+             colour="peach"
+             type="mods"
+             website="" 
+             description="Unifed armor and accessory addon" 
+             />
+              
+                  
+        <mod 
+             name="Witchery" 
+             version="0.20.5"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/witchery-1.7.10-0.20.5.jar" 
+             file="witchery-1.7.10-0.20.5.jar"
+             md5="035d79842d77679ed9de7f6b46efb2b4" 
+             download="server" 
+             type="mods" 
+             colour="peach"
+             website="http://www.minecraftforum.net/topic/1992544-" 
+             authors="Emoniph" 
+             description="Extending Minecraft with witchcraft." 
+             />
+        
+        
+        
+        
+        
+        <!-- ~~~~~~~~~~ default ~~~~~~~~~~ -->
+        
+        <mod 
+             name="Default Mode" 
+             version="1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Default Mode.zip" 
+             file="Default Mode.zip" 
+             md5="3f68ca792f5106e1c63e7854658a405e" 
+             download="server"
+             depends="Advance Generators,Artifacts,Big Reactors,Extra Utilities,Gendustry,Modular Systems,Sync,Thaumic Tinkerer"
+             colour="babyblue"
+             optional="yes"
+             group="0"
+             recommended="yes"
+             type="mods" 
+             website="www.mcbeyondreality.com" 
+             description="Unbalanced Configs" 
+             />
+        
+        
+        <mod 
+             name="Advance Generators" 
+             version="0.9.1.13" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/generators-mc1710-0.9.1.13.jar" 
+             file="generators-mc1710-0.9.1.13.jar"
+             md5="fe9269ff8ab931cc05cf994a36c7541a"
+             download="server"  
+             type="mods" 
+             linked="Default Mode"
+             group="1"
+             colour="babyblue"
+             optional="yes"
+             recommended="yes"
+             website="" 
+             description="MultiBlock generator!" 
+             />
+        
+        
+        <mod 
+             name="Artifacts" 
+             version="1.0.5"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Artifacts-1.0.5.jar" 
+             file="Artifacts-1.0.5.jar"
+             md5="739ed6d5fa1e03038b93ce85ff5e1739" 
+             download="server" 
+             type="mods" 
+             linked="Default Mode"
+             group="2"
+             colour="babyblue"
+             optional="yes"
+             recommended="yes"
+             website="http://binarymage.com/forum/viewtopic.php?f=10&amp;t=1494" 
+             authors="Draco18s" 
+             description="Adds randomly generated magic items to treasure loot generation." 
+             />
+        
+        
+        <mod 
+             name="Big Reactors"
+             version="0.4.0rc8"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/BigReactors-0.4.0rc8.jar"
+             file="BigReactors-0.4.0rc8.jar"
+             md5="92ca72b5d207d259f9dcc642d7cc7f74" 
+             download="server" 
+             type="mods"
+             linked="Default Mode"
+             group="3"
+             colour="babyblue"
+             optional="yes"
+             recommended="yes"
+             depends="CoFH Framework"
+             website="http://www.big-reactors.com" 
+             authors="ErogenousBeef"
+             description="Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) power.  Special thanks: powercrystals, skyboy, King_Lemming, &amp; Calclavia for example code." 
+             />
+        
+        
+        <mod
+             name="Extra Utilities" 
+             version="1.1.0k" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/extrautilities-1.1.0k.jar" 
+             file="extrautilities-1.1.0k.jar"
+             md5="84dd5b3f13d3e6ca344624ea5abd773c" 
+             download="server"
+             type="mods" 
+             linked="Default Mode"
+             group="4"
+             colour="babyblue"
+             optional="yes"
+             recommended="yes"
+             website="" 
+             description="A bunch of fairly usefull things" 
+             />
+        
+        <mod 
+             name="Gendustry" 
+             version="1.3.3.25" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/gendustry-mc1710-1.3.3.25.jar" 
+             file="gendustry-mc1710-1.3.3.25.jar" 
+             md5="1bede6b0b6de32e08c6027a5dfac22f9" 
+             download="server"  
+             type="mods"
+             depends="BdLib"
+             linked="Default Mode"
+             group="5"
+             colour="babyblue"
+             optional="yes"
+             recommended="yes"
+             website="http://www.minecraftforum.net/topic/2160265-" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" 
+             authors="bdew" 
+             description="Gendustry" 
+             />
+        
+        <mod 
+             name="Modular Systems" 
+             version="1.32" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Modular Systems-1.7.10_v1.32.jar" 
+             file="Modular Systems-1.7.10_v1.32.jar" 
+             md5="131ff034c85b071c447bdc49981f7333" 
+             download="server"
+             linked="Default Mode"
+             group="6"
+             colour="babyblue"
+             optional="yes"
+             recommended="yes"
+             type="mods" 
+             website="" 
+             description="Multiblock your world, Choose the way you build!" 
+             />
+        
+        
+        <mod 
+             name="Sync" 
+             version="4.0.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Sync-4.0.0.jar"
+             file="Sync-4.0.0.jar" 
+             md5="ea80d892dee913e35b83b39343fafe4e" 
+             download="server" 
+             type="mods" 
+             linked="Default Mode"
+             group="7"
+             colour="babyblue"
+             optional="yes"
+             recommended="yes"
+             website="http://ichun.us/mods/sync/" 
+             donation="http://pitchinbox.com/redirect.php?id=5757827081"
+             authors="iChun" 
+             description="This mod provides clones, or as we like to call it, &apos;shells&apos;. These shells are basically a new individual, with their own inventory, experience level, and even gamemode." 
+             />
+        
+        <mod 
+             name="Thaumic Tinkerer"
+             version="2.5-1.7.10-158"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ThaumicTinkerer-2.5-1.7.10-158.jar" 
+             file="ThaumicTinkerer-2.5-1.7.10-158.jar"
+             md5="6dce29e04bb19e4bd76d8053fd717a4c" 
+             download="server" 
+             type="mods" 
+             linked="Default Mode"
+             group="8"
+             colour="babyblue"
+             optional="yes"
+             website="http://www.minecraftforum.net/topic/1813058-" 
+             authors="Vazkii" 
+             description="An addon to Thaumcraft 4, implementing new content. This mod is a spiritual successor to Elemental Tinkerer. Researches that come from this mod are prefixed by [TT]. Build 24." 
+             />
+        
+        
+        
+        
+        <!-- ~~~~~~~~~~ Hard ~~~~~~~~~~ -->
+        
+        <mod 
+             name="Hard Mode" 
+             version="1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/HardCore.zip" 
+             file="HardCore.zip" 
+             md5="3f68ca792f5106e1c63e7854658a405e" 
+             download="server"
+             group="0"
+             depends="airoverhaul,SpiceOfLife,AppleCore,CustomOreGen,DeadlyWorld,Special Mobs,IguanaTweaks,IguanaTinkerTweaks"
+             colour="orange"
+             optional="yes"
+             recommended="no"
+             type="mods" 
+             website="www.mcbeyondreality.com" 
+             description="This will enable Hard configs and mods." 
+             />
+        
+        <mod 
+             name="airoverhaul" 
+             version="1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/airoverhaul-1.7.10_1.0.jar" 
+             file="airoverhaul-1.7.10_1.0.jar" 
+             md5="948914be975344602507246ef5d2181f"
+             download="server" 
+             linked="Hard Mode"
+             group="1"
+             colour="orange"
+             optional="yes"
+             recommended="no"
+             type="mods" 
+             website="" 
+             description="Run out of air and Die, No more ticking damage best keep a eye on it." 
+             />
+        
+        <mod 
+             name="AppleCore" 
+             version="1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/AppleCore-mc1.7.10-1.0.0(1).jar" 
+             file="AppleCore-mc1.7.10-1.0.0(1).jar" 
+             md5="049df6d66b5494565642a276fce1d82b" 
+             download="server" 
+             linked="Hard Mode"
+             group="2"
+             colour="orange"
+             optional="yes"
+             recommended="no"
+             type="mods" 
+             website="" 
+             description="Core Mod for a spice of life" 
+             />
+        
+        <mod 
+             name="CustomOreGen" 
+             version="1.2.9"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/CustomOreGen-1.7.10-1.2.9.jar" 
+             file="CustomOreGen-1.7.10-1.2.9.jar"
+             md5="1da3829e0b4b56e6c2831baeb9871ebe" 
+             download="server"
+             linked="Hard Mode"
+             group="3"
+             colour="orange"
+             optional="yes"
+             recommended="no"
+             type="mods" 
+             website="" 
+             description="Better and more realistic ore gen" 
+             />
+                
+        <mod 
+             name="DeadlyWorld" 
+             version="1.7.10-1.0.2" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/DeadlyWorld-1.7.10-1.0.2.jar" 
+             file="DeadlyWorld-1.7.10-1.0.2.jar"
+             md5="b68b71e242776daa8a67c75ef7e94feb" 
+             download="server"
+             linked="Hard Mode"
+             group="4"
+             colour="orange"
+             optional="yes"
+             recommended="no"
+             type="mods"
+             website=""
+             description="Makes your world a little more deadly" 
+             />
+        
+        <mod 
+             name="Special Mobs" 
+             version="3.0.2" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/SpecialMobs-1.7.10-3.0.2(1).jar" 
+             file="SpecialMobs-1.7.10-3.0.2(1).jar" 
+             md5="75eeaedeb28ddf9746454749f6fe64ca" 
+             download="server"
+             linked="Hard Mode"
+             group="5"
+             colour="orange"
+             optional="yes"
+             recommended="no"
+             type="mods" 
+             website="http://www.minecraftforum.net/topic/1153874-" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=RXW6LWC2KND94&amp;lc=US&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted"
+             authors="FatherToast" 
+             description="In short, this mod introduces variants to your default Minecraft mods, such as creepers with fiery explosions, skeletons that shoot poisoned arrows, and zombies that throw other mobs at you. Not only that, but it allows you adjust all vanilla spawn rates and even make jockeys more common!" 
+             />
+        
+        <mod 
+             name="IguanaTweaks" 
+             version="beta-19" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/IguanaTweaks-1.7.10-Beta-19.jar" 
+             file="IguanaTweaks-1.7.10-Beta-19.jar" 
+             md5="6b4a97b4c87445282b3fe6ec91d18107" 
+             download="server"
+             colour="orange"
+             optional="yes"
+             recommended="no"
+             linked="Hard Mode"
+             group="6"
+             type="mods" 
+             website="" 
+             description="Makes your game just that much harder by default." 
+             />
+        
+        <mod 
+             name="IguanaTinkerTweaks" 
+             version="2.0.6" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/IguanaTinkerTweaks-1.7.10-2.0.6.jar" 
+             file="IguanaTinkerTweaks-1.7.10-2.0.6.jar" 
+             md5="455363c52028e6469178232804905a64" 
+             download="server" 
+             linked="Hard Mode"
+             group="7"
+             colour="orange"
+             optional="yes"
+             recommended="no"
+             type="mods" 
+             website="" 
+             description="Puts a greatbalance into tinkers" 
+             />
+        
+        <mod 
+             name="SpiceOfLife" 
+             version="1.2.1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/SpiceOfLife-mc1.7.10-1.2.1.jar" 
+             file="SpiceOfLife-mc1.7.10-1.2.1.jar"
+             md5="a33e602a48a0d456a7fb8da166d88f08"
+             download="server"
+             linked="Hard Mode"
+             group="8"
+             colour="orange"
+             optional="yes"
+             recommended="no"
+             type="mods" 
+             website="" 
+             description="variety is the spice of life and in this case you have to feed off a variety of food or die" 
+             />
+                                                        
+        <!-- ~~~~~~~~~~ Optional Mods ~~~~~~~~~~ -->
+        
+        
+   
+        <mod 
+             name="Battle Text" 
+             version="1.7.10-r1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/BattleText-1.7.10-r1.jar" 
+             file="BattleText-1.7.10-r1.jar" 
+             md5="62d6d7625a4da142c52adf49a3bf38c6" 
+             download="server" 
+             type="mods" 
+             server="no"
+             client="yes"
+             colour="lime"
+             optional="yes"
+             recommended="yes"
+             website="" 
+             description="Floating Battle Text better than damage indicators!" 
+             />
+        
+        <mod 
+             name="Better Foliage" 
+             version="1.0.1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/BetterFoliage-1.0.1.jar" 
+             file="BetterFoliage-1.0.1.jar" 
+             md5="b2852bf3739ad156354ce08801e655f0" 
+             download="server" 
+             type="mods" 
+             server="no"
+             client="yes"
+             colour="lime"
+             optional="yes"
+             recommended="no"
+             website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2119722-" 
+             description="Better leaves and grass" 
+             />
+        
+        <mod 
+             name="Highlands" 
+             version="2.2.1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Highlands-1.7.2-v-2.2.1.jar" 
+             file="Highlands-1.7.2-v-2.2.1.jar" 
+             md5="0c5c62cf9a88c5ade48fcd35a323aba1" 
+             download="server"
+             optional="yes"
+             colour="lime"
+             recommended="yes"
+             group="b"
+             type="mods" 
+             website="http://www.minecraftforum.net/topic/1602064-" 
+             authors="sdj64" 
+             description="Highlands is a mod that adds more biomes to Minecraft.  Over 40 new biomes, new trees, giant mountains, and biome-specific ore gen." 
+             />
+        
+        <mod 
+             name="Inventory Tweaks"
+             version="1.59-dev-152"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/InventoryTweaks-1.59-dev-152.jar" 
+             file="InventoryTweaks-1.59-dev-152.jar" 
+             md5="83f7ddcd5f5fd8d640aa15dc62acc6bf" 
+             download="server"
+             type="mods"
+             server="no"
+             client="yes"
+             colour="lime"
+             optional="yes"
+             recommended="yes"
+             website="http://www.minecraftforum.net/topic/1720872-" 
+             authors="Jimeo Wan,Kobata" 
+             description="Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items." 
+             />
+        
+        <mod 
+             name="MyTown2" 
+             version="0.2a" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/MyTown2-1.7.10-0.2a.jar" 
+             file="MyTown2-1.7.10-0.2a.jar" 
+             md5="72e8f08c968d52f6378ebe5335fc9698" 
+             download="server" 
+             client="no"
+             server="yes"
+             optional="yes"
+             recommended="no"
+             type="mods" 
+             website="http://minecraft.curseforge.com/mc-mods/224242-mytown2" 
+             description="Grief Prevention" 
+             />
+        
+       <mod 
+            name="MyEssentials-Core" 
+            version="1.7.10-1.1" 
+            url="packs/BeyondRealityDimensionsCollide/files/1710mods/MyEssentials-Core-1.7.10-1.1.jar" 
+            file="MyEssentials-Core-1.7.10-1.1.jar"
+            md5="4254bf9beca6c241a44fc8210f07eb0e" 
+            download="server" 
+            client="no"
+            server="yes"
+            optional="yes"
+            recommended="no"
+            type="mods"
+            website="http://minecraft.curseforge.com/mc-mods/224242-mytown2" 
+            description="Grief Prevention Core" 
+            /> 
+        
+        
+        <mod 
+             name="TICToolTips" 
+             version="1.10" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/TiCTooltips-mc1.7.10-1.1.10.jar" 
+             file="TiCTooltips-mc1.7.10-1.1.10.jar" 
+             md5="b550367efc3f50cb541fcfb21a984d0b" 
+             download="server" 
+             type="mods"
+             optional="yes"
+             colour="lime"
+             server="no"
+             client="yes"
+             recommended="yes"
+             website="" 
+             description="Tinkers Construct Tooltips" 
+             />
+        
+        <mod 
+             name="VoxelMapNoRadar" 
+             version="1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/voxelmapNoRadar-1.7.10-1.0.jar" 
+             file="voxelmapNoRadar-1.7.10-1.0.jar" 
+             md5="addbca29618476109bdff9131c477872" 
+             download="server" 
+             type="mods"
+             server="no"
+             client="yes"
+             colour="lime"
+             optional="yes"
+             recommended="yes"
+             website="" 
+             description="MiniMap" 
+             />
+        
+        <mod 
+             name="Waila" 
+             version="1.5.4a" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Waila-1.5.4a_1.7.10.jar" 
+             file="Waila-1.5.4a_1.7.10.jar" 
+             md5="adfa09ffeb5171853f418d62eed74297" 
+             download="server"  
+             type="mods"
+             colour="lime"
+             depends="NotEnoughItems"
+             optional="yes"
+             recommended="yes"
+             website="" 
+             description="What am I looking at" 
+             />
+        
+        
+        <mod 
+             name="Waila Harvestability" 
+             version="1.1.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/WailaHarvestability-mc1.7.x-1.1.0.jar" 
+             file="WailaHarvestability-mc1.7.x-1.1.0.jar" 
+             md5="46e5e97d5763402239abb8eb1b62e7f2" 
+             download="server" 
+             type="mods"
+             colour="lime"
+             depends="Waila"
+             optional="yes"
+             recommended="yes"
+             website="" 
+             description="Can I harvest that?"
+             />
+        
+        <mod 
+             name="Wawla" 
+             version="1.0.6" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Wawla-1.0.6_1.7.10.jar" 
+             file="Wawla-1.0.6_1.7.10.jar"
+             md5="22ab81bbefc65af543f82538d23d6f4d" 
+             download="server" 
+             type="mods"
+             colour="gold"
+             depends="Waila"
+             website="" 
+             description="What are we looking at" 
+             />
+        
+        <mod 
+             name="WorldToolTips" 
+             version="1.7.10-r1" 
+		     url="packs/BeyondRealityDimensionsCollide/files/1710mods/WorldTooltips-1.7.10-r1.jar" 
+             file="WorldTooltips-1.7.10-r1.jar" 
+             md5="099b761f62d9f29f924b40ce8733d76a" 
+             download="server"
+             type="mods"
+             server="no"
+             client="yes"
+             colour="lime"
+             optional="yes"
+             recommended="yes"
+             website="" 
+             description="Enity and floating item tool tips" />
+        
+        
+        
+        
+        <!-- ~~~~~~~~~~ Random Core Mods ~~~~~~~~~~ -->
+        
+       
+        
+        <mod name="AsieLib" 
+             version="0.3.1"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/AsieLib-1.7.10-0.3.1.jar"
+             file="AsieLib-1.7.10-0.3.1.jar" 
+             md5="fe3c63b5da3cfb5f98674d2f9d85cb20" 
+             download="server"  
+             type="mods" 
+             hidden="yes"
+             website="http://mc.shinonome.ch/doku.php?id=wiki:asielib" 
+             description="Library for Asie mods" />
+             />
+        
+        <mod 
+             name="BdLib" 
+             version="1.4.4.22"
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/bdlib-mc1710-1.4.4.22.jar" 
+             file="bdlib-mc1710-1.4.4.22.jar" 
+             md5="ff492db8bba813aa8f425f41a92d3581" 
+             download="server"  
+             type="mods" 
+             hidden="yes"
+             colour="brightred"
+             website="http://minecraft.curseforge.com/mc-mods/bdlib/" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=TV8GLNVZJGGG4" 
+             authors="bdew" 
+             description="This is a collection of generic code used by bdew&apos;s other mods" 
+             />
+        
+        <mod 
+             name="CodeChickenLib" 
+             version="1.1.1.104" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/CodeChickenLib-1.7.10-1.1.1.104-universal.jar" 
+             file="CodeChickenLib-1.7.10-1.1.1.104-universal.jar" 
+             md5="53ad74d64ba082bc7316c63d9d80286a" 
+             download="server" 
+             type="dependency"
+             hidden="yes"
+             colour="gold"
+             website="http://www.minecraftforum.net/topic/909223-" 
+             donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
+             authors="ChickenBones"
+             description="Needed for ChickenBones mods" 
+             />
+        
+        <mod 
+             name="CodeChickenCore" 
+             version="1.0.3.25" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/CodeChickenCore-1.7.10-1.0.3.25-universal.jar" 
+             file="CodeChickenCore-1.7.10-1.0.3.25-universal.jar"
+             md5="7b5265c4e8d2c271397b5b28526c9a65"
+             download="server" 
+             type="mods"
+             hidden="yes"
+             colour="gold"
+             website="http://www.minecraftforum.net/topic/909223-" 
+             donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php" 
+             authors="ChickenBones" 
+             description="Core library for all ChickenBones mods"
+             />
+        
+        <mod 
+             name="CoFH Framework" 
+             version="[1.7.10]3.0.0B6-32" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/CoFHCore-[1.7.10]3.0.0B6-32.jar" 
+             file="CoFHCore-[1.7.10]3.0.0B6-32.jar"
+             md5="b1ee8684fc90acef9e81f63f6a9db189"
+             download="server"
+             type="mods" 
+             colour="red"
+             hidden="yes"
+             website="http://teamcofh.com/" 
+             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3M6YK5LMC4GT6" 
+             authors="KingLemmingCoFH,Cynycal,Zeldo" 
+             description="Framework required for all Team CoFH mods." 
+             />
+        
+        <mod 
+             name="Baubles" 
+             version="0.1.8" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Baubles-1.7.10-1.0.1.8.jar" 
+             file="Baubles-1.7.10-1.0.1.8.jar" 
+             md5="370eb41097af0d7074669d473c38bd73" 
+             download="server"  
+             type="dependency" 
+             hidden="yes"
+             website="http://www.minecraftforum.net/topic/2535073-" 
+             description="Baubles is a small addon mod and api that is intended to be used by other mods to add additional inventory slots to a character" 
+             />
+        
+        <mod 
+             name="Beyond Reality Core" 
+             version="1.3" 
+             url="packs/BeyondRealityDimensionsCollide/files/beyondrealitycore-1.7.10-1.3.jar" 
+             file="beyondrealitycore-1.7.10-1.3.jar" 
+             md5="23dd635a6ce37906121a9013955c3c12" 
+             download="server"
+             colour="green"
+             type="mods" 
+             website="www.mcbeyondreality.com" 
+             description="Core mod for beyond reality packs"
+             />
+        
+        <mod 
+             name="Eureka" 
+             version="1.2" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Eureka-1.7.10-1.2.jar" 
+             file="Eureka-1.7.10-1.2.jar" 
+             md5="23213e6a2c7530115458d0681e211964" 
+             download="server" 
+             type="mods"
+             hidden="yes"
+             website="" 
+             description="CoreMod" 
+             />
+        
+        <mod 
+             name="Enchiridion" 
+             version="1.2b" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Enchiridion-1.7.X-1.2b.jar" 
+             file="Enchiridion-1.7.X-1.2b.jar" 
+             md5="22d871bf20810055dd4f4d9d3b023343" 
+             download="server"
+             type="mods" 
+             hidden="yes"
+             website="http://www.curse.com/mc-mods/minecraft/enchiridion" 
+             donation="https://www.paypal.com/cgi-bin/webscr?business=joshjackwildman%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;lc=US&amp;item_name=Enchiridion&amp;cmd=_donations&amp;rm=1&amp;no_shipping=1&amp;currency_code=USD" 
+             authors="joshiejack" 
+             description="This is a mod that started off as part of Mariculture, allowing for loading of custom books from zip files in the configs, handy for modpack creators or people who just want to let people know what&apos;s going on, with a mod." 
+             />
+        
+        <mod 
+             name="iChunUtil" 
+             version="4.0.0" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/iChunUtil-4.0.0.jar" 
+             file="iChunUtil-4.0.0.jar"
+             md5="5f01514a2946ef2bf3bf413af88f0e42" 
+             download="server" 
+             type="mods" 
+             hidden="yes"
+             website="http://www.ichun.us/" 
+             donation="http://pitchinbox.com/redirect.php?id=5757827081" 
+             authors="iChun" 
+             description="Shared library mod required by several of iChun&apos;s Mods." 
+             />
+        
+        <mod 
+             name="Malisicore" 
+             version="0.9.6" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/malisiscore-1.7.10-0.9.6.jar" 
+             file="malisiscore-1.7.10-0.9.6.jar" 
+             md5="ed1bcb76311e385878bf9095f8788ea2" 
+             download="server"   
+             type="mods" 
+             hidden="yes"
+             website="" 
+             description="Core Mod" 
+             />
+        
+        <mod 
+             name="Mantle" 
+             version="0.3.1" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/Mantle-mc1.7.10-0.3.1.jar" 
+             file="Mantle-mc1.7.10-0.3.1.jar" 
+             md5="bf878ab7fb408df99e197393ce6a009e" 
+             download="server" 
+             type="mods"
+             hidden="yes"
+             website="" 
+             description="Core mod" 
+             />
+        
+        <mod 
+             name="Micdoodle8 Core" 
+             version="3.0.3.200" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/MicdoodleCore-BETA-1.7-3.0.3.200.jar" 
+             file="MicdoodleCore-BETA-1.7-3.0.3.200.jar" 
+             md5="5016c8ad68611e78cac6a3eecaf59786" 
+             download="server"  
+             type="mods"
+             hidden="yes"
+             website="http://www.micdoodle8.com/" 
+             donation="http://www.micdoodle8.com/" 
+             authors="micdoodle8" 
+             description="Provides core features of Micdoodle8&apos;s mods" 
+             />
+
+        
+        <mod 
+             name="OpenMods Lib" 
+             version="1.7.10-0.6-snapshot-224" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/OpenModsLib-1.7.10-0.6-snapshot-224.jar" 
+             file="OpenModsLib-1.7.10-0.6-snapshot-224.jar" 
+             md5="7ed4a3bdecacbf9f2d41d5a109e62e51" 
+             download="server" 
+             type="mods"
+             hidden="yes"
+             website="http://www.openblocks.info/" 
+             donation="http://www.patreon.com/openmods" 
+             authors="Mikeemoo" 
+             description="This is required for all of OpenBlocks mods." 
+             />
+        
+        <mod 
+             name="SlimevoidLibrary" 
+             version="2.0.4.6" 
+             url="packs/BeyondRealityDimensionsCollide/files/SlimevoidLibrary-2.0.4.6.jar" 
+             file="SlimevoidLibrary-2.0.4.6.jar" 
+             md5="5d3b7bbf478456822c65ac8f2a4995aa" 
+             download="server" 
+             type="mods" 
+             website="" 
+             description="Core mod for Dynamic transportation"
+             />
+        
+        <mod 
+             name="resonant-engine" 
+             version="2.0.0.109" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/resonant-engine-2.0.0.109-core.jar" 
+             file="resonant-engine-2.0.0.109-core.jar"
+             md5="03d2efdf523054d2d59d473d21708e8f" 
+             download="server"  
+             type="mods" 
+             hidden="yes"
+             website="" 
+             description="Core Mod" 
+             />
+      
+        <mod 
+             name="ThermalFoundation" 
+             version="1.0.0B3-8" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/ThermalFoundation-[1.7.10]1.0.0B3-8.jar" 
+             file="ThermalFoundation-[1.7.10]1.0.0B3-8.jar" 
+             md5="cf5c6cf79ecf9748504a46e91c8383d8" 
+             download="server" 
+             type="mods"
+             depends="CoFH Framework"
+             hidden="yes"
+             colour="red"
+             website=""
+             description="Ore Gen" 
+             />
+        
+        <mod 
+             name="Universal Electricity" 
+             version="4.0.0.77" 
+             url="packs/BeyondRealityDimensionsCollide/files/1710mods/universal-electricity-4.0.0.77-core.jar" 
+             file="universal-electricity-4.0.0.77-core.jar" 
+             md5="46de0d113adcf1543cf2f358eed2ef08"
+             download="server"  
+             type="mods"
+             hidden="yes"
+             website="" 
+             description="Core Mod"
+             /> 
+        
+        
+        </mods>
+</version>
